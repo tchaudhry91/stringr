@@ -37,7 +37,7 @@ npm test           # Run Jest tests
 ```
 
 **Git Workflow:**
-- Use `bun` instead of `npm` for package management where possible
+- Use `npm` for package management
 - Commit frequently at logical stopping points
 - Push to remote after major milestones
 
