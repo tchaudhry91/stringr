@@ -20,60 +20,50 @@ export interface User {
 
 export interface String {
   id: string;
-  brand: string;
+  brand?: string;
   model: string;
-  material: 'Polyester' | 'Natural Gut' | 'Synthetic Gut' | 'Multifilament' | 'Hybrid';
+  material?: string;
   gauge?: string;
   color?: string;
-  characteristics?: {
-    power?: number;
-    control?: number;
-    spin?: number;
-    comfort?: number;
-    durability?: number;
-  };
-  price_per_set?: number;
-  notes?: string;
+  user?: string;
   created: string;
   updated: string;
 }
 
 export interface Racquet {
   id: string;
-  user: string;
-  brand: string;
-  model: string;
-  year?: number;
-  grip_size?: string;
-  string_pattern?: string;
-  weight_unstrung?: number;
-  weight_strung?: number;
-  balance_point?: number;
-  swing_weight?: number;
-  photo?: string;
+  user?: string;
+  brand?: string;
+  model?: string;
+  name: string; // Required field for racquet name
+  pattern?: string; // String pattern (was string_pattern)
+  weight?: string; // Weight as text field
   notes?: string;
-  is_active: boolean;
+  is_active?: boolean;
+  year?: number;
   created: string;
   updated: string;
 }
 
 export interface StringJob {
   id: string;
-  user: string;
-  racquet: string;
-  main_string: string;
+  user?: string;
+  racquet?: string;
+  main_string?: string;
   cross_string?: string;
-  main_tension: number;
-  cross_tension?: number;
-  tension_unit: 'lbs' | 'kg';
-  stringer_name?: string;
-  string_date: string;
-  string_cost?: number;
-  pre_stretch: boolean;
-  notes?: string;
-  performance_rating?: number;
-  durability_hours?: number;
-  broke_at?: string;
+  tension_lbs_main?: number; // Main tension in lbs
+  tension_lbs_cross?: number; // Cross tension in lbs
+  created: string;
+  updated: string;
+}
+
+export interface Session {
+  id: string;
+  user?: string;
+  string_job?: string;
+  duration_hours?: number;
+  rating?: number;
+  string_broken?: boolean;
   created: string;
   updated: string;
 }
@@ -91,6 +81,13 @@ export interface StringJobWithRelations extends StringJob {
     racquet?: Racquet;
     main_string?: String;
     cross_string?: String;
+  };
+}
+
+export interface SessionWithRelations extends Session {
+  expand?: {
+    user?: User;
+    string_job?: StringJob;
   };
 }
 
@@ -193,7 +190,7 @@ export const api = {
   stringJobs: {
     list: async (page = 1, perPage = 30) => {
       return await pb.collection('string_jobs').getList<StringJobWithRelations>(page, perPage, {
-        sort: '-string_date',
+        sort: '-created',
         expand: 'user,racquet,main_string,cross_string',
       });
     },
@@ -207,7 +204,7 @@ export const api = {
     getByRacquet: async (racquetId: string) => {
       return await pb.collection('string_jobs').getList<StringJobWithRelations>(1, 50, {
         filter: `racquet = "${racquetId}"`,
-        sort: '-string_date',
+        sort: '-created',
         expand: 'user,racquet,main_string,cross_string',
       });
     },
@@ -222,6 +219,42 @@ export const api = {
 
     delete: async (id: string) => {
       return await pb.collection('string_jobs').delete(id);
+    },
+  },
+
+  // Sessions
+  sessions: {
+    list: async (page = 1, perPage = 30) => {
+      return await pb.collection('sessions').getList<SessionWithRelations>(page, perPage, {
+        sort: '-created',
+        expand: 'user,string_job',
+      });
+    },
+
+    getById: async (id: string) => {
+      return await pb.collection('sessions').getOne<SessionWithRelations>(id, {
+        expand: 'user,string_job',
+      });
+    },
+
+    getByStringJob: async (stringJobId: string) => {
+      return await pb.collection('sessions').getList<SessionWithRelations>(1, 50, {
+        filter: `string_job = "${stringJobId}"`,
+        sort: '-created',
+        expand: 'user,string_job',
+      });
+    },
+
+    create: async (data: Partial<Session>) => {
+      return await pb.collection('sessions').create<Session>(data);
+    },
+
+    update: async (id: string, data: Partial<Session>) => {
+      return await pb.collection('sessions').update<Session>(id, data);
+    },
+
+    delete: async (id: string) => {
+      return await pb.collection('sessions').delete(id);
     },
   },
 };
