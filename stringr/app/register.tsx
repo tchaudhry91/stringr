@@ -3,6 +3,7 @@ import { StyleSheet, TextInput, TouchableOpacity, Alert, KeyboardAvoidingView, P
 import { Text, View } from '@/components/Themed';
 import { auth } from '@/lib/pocketbase';
 import { router } from 'expo-router';
+import { SharedStyles } from '@/styles/SharedStyles';
 
 export default function RegisterScreen() {
   const [name, setName] = useState('');
@@ -50,16 +51,16 @@ export default function RegisterScreen() {
 
   return (
     <KeyboardAvoidingView 
-      style={styles.container} 
+      style={SharedStyles.container} 
       behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
     >
-      <View style={styles.content}>
-        <Text style={styles.title}>Create Account</Text>
-        <Text style={styles.subtitle}>Join Stringr to track your tennis gear</Text>
+      <View style={SharedStyles.contentContainer}>
+        <Text style={SharedStyles.pageTitle}>Create Account</Text>
+        <Text style={SharedStyles.subtitle}>Join Stringr to track your tennis gear</Text>
 
-        <View style={styles.form}>
+        <View style={SharedStyles.form}>
           <TextInput
-            style={styles.input}
+            style={SharedStyles.input}
             placeholder="Full Name"
             placeholderTextColor="#999"
             value={name}
@@ -69,7 +70,7 @@ export default function RegisterScreen() {
           />
 
           <TextInput
-            style={styles.input}
+            style={SharedStyles.input}
             placeholder="Email"
             placeholderTextColor="#999"
             value={email}
@@ -80,7 +81,7 @@ export default function RegisterScreen() {
           />
 
           <TextInput
-            style={styles.input}
+            style={SharedStyles.input}
             placeholder="Password (min 8 characters)"
             placeholderTextColor="#999"
             value={password}
@@ -90,7 +91,7 @@ export default function RegisterScreen() {
           />
 
           <TextInput
-            style={styles.input}
+            style={SharedStyles.input}
             placeholder="Confirm Password"
             placeholderTextColor="#999"
             value={confirmPassword}
@@ -100,20 +101,20 @@ export default function RegisterScreen() {
           />
 
           <TouchableOpacity
-            style={[styles.button, loading && styles.buttonDisabled]}
+            style={[SharedStyles.primaryButton, loading && SharedStyles.primaryButtonDisabled]}
             onPress={handleRegister}
             disabled={loading}
           >
-            <Text style={styles.buttonText}>
+            <Text style={SharedStyles.primaryButtonText}>
               {loading ? 'Creating Account...' : 'Create Account'}
             </Text>
           </TouchableOpacity>
 
           <TouchableOpacity
-            style={styles.linkButton}
+            style={SharedStyles.linkButton}
             onPress={navigateToLogin}
           >
-            <Text style={styles.linkText}>
+            <Text style={SharedStyles.linkText}>
               Already have an account? Sign in
             </Text>
           </TouchableOpacity>
@@ -123,62 +124,5 @@ export default function RegisterScreen() {
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
-  content: {
-    flex: 1,
-    justifyContent: 'center',
-    paddingHorizontal: 30,
-  },
-  title: {
-    fontSize: 32,
-    fontWeight: 'bold',
-    textAlign: 'center',
-    marginBottom: 10,
-  },
-  subtitle: {
-    fontSize: 16,
-    opacity: 0.7,
-    textAlign: 'center',
-    marginBottom: 40,
-  },
-  form: {
-    gap: 16,
-  },
-  input: {
-    height: 50,
-    borderWidth: 1,
-    borderColor: '#ddd',
-    borderRadius: 8,
-    paddingHorizontal: 16,
-    fontSize: 16,
-    backgroundColor: '#fff',
-    color: '#000',
-  },
-  button: {
-    backgroundColor: '#007AFF',
-    height: 50,
-    borderRadius: 8,
-    justifyContent: 'center',
-    alignItems: 'center',
-    marginTop: 10,
-  },
-  buttonDisabled: {
-    opacity: 0.6,
-  },
-  buttonText: {
-    color: '#fff',
-    fontSize: 16,
-    fontWeight: '600',
-  },
-  linkButton: {
-    marginTop: 20,
-    alignItems: 'center',
-  },
-  linkText: {
-    color: '#007AFF',
-    fontSize: 14,
-  },
-});
+// All styles now use SharedStyles - no local styles needed
+const styles = StyleSheet.create({});

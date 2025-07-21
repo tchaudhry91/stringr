@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { router } from 'expo-router';
 import { useAuth } from '@/contexts/AuthContext';
 import { ActivityIndicator, View } from 'react-native';
+import { SharedStyles } from '@/styles/SharedStyles';
 
 export default function Index() {
   const { isAuthenticated, isLoading } = useAuth();
@@ -17,7 +18,7 @@ export default function Index() {
   }, [isAuthenticated, isLoading]);
 
   return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+    <View style={SharedStyles.loadingContainer}>
       <ActivityIndicator size="large" />
     </View>
   );
