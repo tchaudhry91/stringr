@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 import { StyleSheet, TextInput, TouchableOpacity, Alert, KeyboardAvoidingView, Platform } from 'react-native';
 import { Text, View } from '@/components/Themed';
-import { auth } from '@/lib/pocketbase';
 import { router } from 'expo-router';
 import { SharedStyles } from '@/styles/SharedStyles';
+import { useAuth } from '@/contexts/AuthContext';
 
 export default function LoginScreen() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [loading, setLoading] = useState(false);
+  const { login, isLoginLoading } = useAuth();
 
   const handleLogin = async () => {
     if (!email || !password) {
@@ -16,15 +16,12 @@ export default function LoginScreen() {
       return;
     }
 
-    setLoading(true);
     try {
-      await auth.login(email, password);
+      await login(email, password);
       router.replace('/(tabs)');
     } catch (error) {
       console.error('Login error:', error);
       Alert.alert('Login Failed', 'Invalid email or password');
-    } finally {
-      setLoading(false);
     }
   };
 
@@ -64,12 +61,12 @@ export default function LoginScreen() {
           />
 
           <TouchableOpacity
-            style={[SharedStyles.primaryButton, loading && SharedStyles.primaryButtonDisabled]}
+            style={[SharedStyles.primaryButton, isLoginLoading && SharedStyles.primaryButtonDisabled]}
             onPress={handleLogin}
-            disabled={loading}
+            disabled={isLoginLoading}
           >
             <Text style={SharedStyles.primaryButtonText}>
-              {loading ? 'Signing In...' : 'Sign In'}
+              {isLoginLoading ? 'Signing In...' : 'Sign In'}
             </Text>
           </TouchableOpacity>
 

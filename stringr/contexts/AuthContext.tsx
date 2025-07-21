@@ -5,6 +5,7 @@ interface AuthContextType {
   user: User | null;
   isAuthenticated: boolean;
   isLoading: boolean;
+  isLoginLoading: boolean;
   login: (email: string, password: string) => Promise<void>;
   logout: () => void;
 }
@@ -14,6 +15,7 @@ const AuthContext = createContext<AuthContextType | undefined>(undefined);
 export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [user, setUser] = useState<User | null>(null);
   const [isLoading, setIsLoading] = useState(true);
+  const [isLoginLoading, setIsLoginLoading] = useState(false);
 
   useEffect(() => {
     const currentUser = auth.getCurrentUser();
@@ -22,8 +24,13 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   const login = async (email: string, password: string) => {
-    const authData = await auth.login(email, password);
-    setUser(authData.record as User);
+    setIsLoginLoading(true);
+    try {
+      const authData = await auth.login(email, password);
+      setUser(authData.record as User);
+    } finally {
+      setIsLoginLoading(false);
+    }
   };
 
   const logout = () => {
@@ -35,6 +42,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     user,
     isAuthenticated: !!user && auth.isAuthenticated(),
     isLoading,
+    isLoginLoading,
     login,
     logout,
   };
