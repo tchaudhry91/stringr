@@ -1,25 +1,13 @@
-# PocketBase Schema Import Instructions
+# PocketBase Collections Setup
 
-## Quick Setup (2 minutes)
+The JSON import format is complex and error-prone. Instead, use the **manual setup guide** which is more reliable.
 
-### Step 1: Import Collections Schema
-1. Open PocketBase Admin: http://localhost:8090/_/
-2. Login with your superuser credentials
-3. Go to **Settings** (gear icon) → **Import collections**
-4. Upload the file: `backend/collections_schema.json`
-5. Click **"Review"** then **"Import"**
+## Recommended Approach: Manual Setup
 
-This will create 3 collections:
-- `strings` - Tennis string database
-- `racquets` - User's tennis racquets  
-- `string_jobs` - String job history
+Follow the step-by-step guide in `backend/MANUAL_SETUP.md` - it takes about 5 minutes and ensures everything works correctly.
 
-### Step 2: Update Security Rules (Optional)
-For better data isolation:
-1. Follow instructions in `backend/SECURITY_RULES.md`
-2. Update API rules for racquets and string_jobs collections
-
-### Step 3: Verify Setup
+## Quick Verification
+After setup:
 1. Check that all 3 collections exist in the sidebar
 2. Test API endpoint: http://localhost:8090/api/collections/strings/records
 
