@@ -1,0 +1,512 @@
+[
+  {
+    "id": "strings_collection",
+    "name": "strings",
+    "type": "base",
+    "system": false,
+    "schema": [
+      {
+        "id": "brand_field",
+        "name": "brand",
+        "type": "text",
+        "system": false,
+        "required": true,
+        "unique": false,
+        "options": {
+          "min": 1,
+          "max": 100,
+          "pattern": ""
+        }
+      },
+      {
+        "id": "model_field",
+        "name": "model",
+        "type": "text",
+        "system": false,
+        "required": true,
+        "unique": false,
+        "options": {
+          "min": 1,
+          "max": 100,
+          "pattern": ""
+        }
+      },
+      {
+        "id": "material_field",
+        "name": "material",
+        "type": "select",
+        "system": false,
+        "required": true,
+        "unique": false,
+        "options": {
+          "maxSelect": 1,
+          "values": [
+            "Polyester",
+            "Natural Gut",
+            "Synthetic Gut",
+            "Multifilament",
+            "Hybrid"
+          ]
+        }
+      },
+      {
+        "id": "gauge_field",
+        "name": "gauge",
+        "type": "text",
+        "system": false,
+        "required": false,
+        "unique": false,
+        "options": {
+          "min": 0,
+          "max": 20,
+          "pattern": ""
+        }
+      },
+      {
+        "id": "color_field",
+        "name": "color",
+        "type": "text",
+        "system": false,
+        "required": false,
+        "unique": false,
+        "options": {
+          "min": 0,
+          "max": 50,
+          "pattern": ""
+        }
+      },
+      {
+        "id": "characteristics_field",
+        "name": "characteristics",
+        "type": "json",
+        "system": false,
+        "required": false,
+        "unique": false,
+        "options": {}
+      },
+      {
+        "id": "price_field",
+        "name": "price_per_set",
+        "type": "number",
+        "system": false,
+        "required": false,
+        "unique": false,
+        "options": {
+          "min": null,
+          "max": null
+        }
+      },
+      {
+        "id": "notes_field",
+        "name": "notes",
+        "type": "text",
+        "system": false,
+        "required": false,
+        "unique": false,
+        "options": {
+          "min": 0,
+          "max": 1000,
+          "pattern": ""
+        }
+      }
+    ],
+    "indexes": [],
+    "listRule": "",
+    "viewRule": "",
+    "createRule": "@request.auth.id != \"\"",
+    "updateRule": "@request.auth.id != \"\"",
+    "deleteRule": "@request.auth.id != \"\"",
+    "options": {}
+  },
+  {
+    "id": "racquets_collection",
+    "name": "racquets",
+    "type": "base",
+    "system": false,
+    "schema": [
+      {
+        "id": "user_field",
+        "name": "user",
+        "type": "relation",
+        "system": false,
+        "required": true,
+        "unique": false,
+        "options": {
+          "collectionId": "_pb_users_auth_",
+          "cascadeDelete": true,
+          "minSelect": null,
+          "maxSelect": 1,
+          "displayFields": ["name", "email"]
+        }
+      },
+      {
+        "id": "brand_field",
+        "name": "brand",
+        "type": "text",
+        "system": false,
+        "required": true,
+        "unique": false,
+        "options": {
+          "min": 1,
+          "max": 100,
+          "pattern": ""
+        }
+      },
+      {
+        "id": "model_field",
+        "name": "model",
+        "type": "text",
+        "system": false,
+        "required": true,
+        "unique": false,
+        "options": {
+          "min": 1,
+          "max": 100,
+          "pattern": ""
+        }
+      },
+      {
+        "id": "year_field",
+        "name": "year",
+        "type": "number",
+        "system": false,
+        "required": false,
+        "unique": false,
+        "options": {
+          "min": 1990,
+          "max": 2030
+        }
+      },
+      {
+        "id": "grip_size_field",
+        "name": "grip_size",
+        "type": "text",
+        "system": false,
+        "required": false,
+        "unique": false,
+        "options": {
+          "min": 0,
+          "max": 20,
+          "pattern": ""
+        }
+      },
+      {
+        "id": "string_pattern_field",
+        "name": "string_pattern",
+        "type": "text",
+        "system": false,
+        "required": false,
+        "unique": false,
+        "options": {
+          "min": 0,
+          "max": 20,
+          "pattern": ""
+        }
+      },
+      {
+        "id": "weight_unstrung_field",
+        "name": "weight_unstrung",
+        "type": "number",
+        "system": false,
+        "required": false,
+        "unique": false,
+        "options": {
+          "min": 200,
+          "max": 400
+        }
+      },
+      {
+        "id": "weight_strung_field",
+        "name": "weight_strung",
+        "type": "number",
+        "system": false,
+        "required": false,
+        "unique": false,
+        "options": {
+          "min": 200,
+          "max": 400
+        }
+      },
+      {
+        "id": "balance_point_field",
+        "name": "balance_point",
+        "type": "number",
+        "system": false,
+        "required": false,
+        "unique": false,
+        "options": {
+          "min": 250,
+          "max": 400
+        }
+      },
+      {
+        "id": "swing_weight_field",
+        "name": "swing_weight",
+        "type": "number",
+        "system": false,
+        "required": false,
+        "unique": false,
+        "options": {
+          "min": 250,
+          "max": 400
+        }
+      },
+      {
+        "id": "photo_field",
+        "name": "photo",
+        "type": "file",
+        "system": false,
+        "required": false,
+        "unique": false,
+        "options": {
+          "maxSelect": 1,
+          "maxSize": 5242880,
+          "mimeTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/svg+xml",
+            "image/gif",
+            "image/webp"
+          ],
+          "thumbs": ["100x100", "300x300"]
+        }
+      },
+      {
+        "id": "notes_field",
+        "name": "notes",
+        "type": "text",
+        "system": false,
+        "required": false,
+        "unique": false,
+        "options": {
+          "min": 0,
+          "max": 2000,
+          "pattern": ""
+        }
+      },
+      {
+        "id": "is_active_field",
+        "name": "is_active",
+        "type": "bool",
+        "system": false,
+        "required": false,
+        "unique": false,
+        "options": {}
+      }
+    ],
+    "indexes": [],
+    "listRule": "user = @request.auth.id",
+    "viewRule": "user = @request.auth.id",
+    "createRule": "user = @request.auth.id",
+    "updateRule": "user = @request.auth.id",
+    "deleteRule": "user = @request.auth.id",
+    "options": {}
+  },
+  {
+    "id": "string_jobs_collection",
+    "name": "string_jobs",
+    "type": "base",
+    "system": false,
+    "schema": [
+      {
+        "id": "user_field",
+        "name": "user",
+        "type": "relation",
+        "system": false,
+        "required": true,
+        "unique": false,
+        "options": {
+          "collectionId": "_pb_users_auth_",
+          "cascadeDelete": true,
+          "minSelect": null,
+          "maxSelect": 1,
+          "displayFields": ["name", "email"]
+        }
+      },
+      {
+        "id": "racquet_field",
+        "name": "racquet",
+        "type": "relation",
+        "system": false,
+        "required": true,
+        "unique": false,
+        "options": {
+          "collectionId": "racquets_collection",
+          "cascadeDelete": true,
+          "minSelect": null,
+          "maxSelect": 1,
+          "displayFields": ["brand", "model"]
+        }
+      },
+      {
+        "id": "main_string_field",
+        "name": "main_string",
+        "type": "relation",
+        "system": false,
+        "required": true,
+        "unique": false,
+        "options": {
+          "collectionId": "strings_collection",
+          "cascadeDelete": false,
+          "minSelect": null,
+          "maxSelect": 1,
+          "displayFields": ["brand", "model"]
+        }
+      },
+      {
+        "id": "cross_string_field",
+        "name": "cross_string",
+        "type": "relation",
+        "system": false,
+        "required": false,
+        "unique": false,
+        "options": {
+          "collectionId": "strings_collection",
+          "cascadeDelete": false,
+          "minSelect": null,
+          "maxSelect": 1,
+          "displayFields": ["brand", "model"]
+        }
+      },
+      {
+        "id": "main_tension_field",
+        "name": "main_tension",
+        "type": "number",
+        "system": false,
+        "required": true,
+        "unique": false,
+        "options": {
+          "min": 20,
+          "max": 80
+        }
+      },
+      {
+        "id": "cross_tension_field",
+        "name": "cross_tension",
+        "type": "number",
+        "system": false,
+        "required": false,
+        "unique": false,
+        "options": {
+          "min": 20,
+          "max": 80
+        }
+      },
+      {
+        "id": "tension_unit_field",
+        "name": "tension_unit",
+        "type": "select",
+        "system": false,
+        "required": false,
+        "unique": false,
+        "options": {
+          "maxSelect": 1,
+          "values": ["lbs", "kg"]
+        }
+      },
+      {
+        "id": "stringer_name_field",
+        "name": "stringer_name",
+        "type": "text",
+        "system": false,
+        "required": false,
+        "unique": false,
+        "options": {
+          "min": 0,
+          "max": 100,
+          "pattern": ""
+        }
+      },
+      {
+        "id": "string_date_field",
+        "name": "string_date",
+        "type": "date",
+        "system": false,
+        "required": true,
+        "unique": false,
+        "options": {
+          "min": "",
+          "max": ""
+        }
+      },
+      {
+        "id": "string_cost_field",
+        "name": "string_cost",
+        "type": "number",
+        "system": false,
+        "required": false,
+        "unique": false,
+        "options": {
+          "min": 0,
+          "max": null
+        }
+      },
+      {
+        "id": "pre_stretch_field",
+        "name": "pre_stretch",
+        "type": "bool",
+        "system": false,
+        "required": false,
+        "unique": false,
+        "options": {}
+      },
+      {
+        "id": "notes_field",
+        "name": "notes",
+        "type": "text",
+        "system": false,
+        "required": false,
+        "unique": false,
+        "options": {
+          "min": 0,
+          "max": 2000,
+          "pattern": ""
+        }
+      },
+      {
+        "id": "performance_rating_field",
+        "name": "performance_rating",
+        "type": "number",
+        "system": false,
+        "required": false,
+        "unique": false,
+        "options": {
+          "min": 1,
+          "max": 5
+        }
+      },
+      {
+        "id": "durability_hours_field",
+        "name": "durability_hours",
+        "type": "number",
+        "system": false,
+        "required": false,
+        "unique": false,
+        "options": {
+          "min": 0,
+          "max": null
+        }
+      },
+      {
+        "id": "broke_at_field",
+        "name": "broke_at",
+        "type": "text",
+        "system": false,
+        "required": false,
+        "unique": false,
+        "options": {
+          "min": 0,
+          "max": 200,
+          "pattern": ""
+        }
+      }
+    ],
+    "indexes": [],
+    "listRule": "user = @request.auth.id",
+    "viewRule": "user = @request.auth.id", 
+    "createRule": "user = @request.auth.id && racquet.user = @request.auth.id",
+    "updateRule": "user = @request.auth.id",
+    "deleteRule": "user = @request.auth.id",
+    "options": {}
+  }
+]
