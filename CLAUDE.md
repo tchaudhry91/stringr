@@ -73,43 +73,45 @@ task backend:admin # Create admin user
 - Modal overlays for forms and detailed views
 - Theme-aware components with automatic dark mode
 
-**Data Models (Planned):**
-- Users (authentication)
-- Racquets (brand, model, specs, photos)
-- Strings (brand, model, material, characteristics)
-- StringJobs (racquet_id, string_id, tensions, date, notes)
+**Data Models (Implemented):**
+- Users (authentication with name, email, avatar)
+- Racquets (name, brand, model, pattern, weight, notes, year)
+- Strings (brand, model, material, gauge, color, user attribution)
+- String Jobs (racquet, main/cross strings, tension_lbs_main/cross)
+- Sessions (string_job, duration_hours, rating, string_broken tracking)
 
 **Development Phases:**
 1. ✅ Project setup and foundation (COMPLETED)
 2. ✅ Navigation and basic screens (COMPLETED)
 3. ✅ PocketBase backend setup (COMPLETED)
-4. 🔄 Database schema and API integration (IN PROGRESS)
-5. 📱 Core CRUD functionality
-6. 📸 Media/photo features
-7. 🔊 Audio processing foundation
+4. ✅ Database schema and API integration (COMPLETED)
+5. 🔄 Authentication and user management (IN PROGRESS)
+6. 📱 Core CRUD functionality
+7. 📸 Media/photo features
+8. 🔊 Audio processing foundation
 
 ## Current Project Status
 
-**✅ Completed (Phase 1-3):**
-- React Native/Expo project with TypeScript
-- 4-tab navigation: Racquets, String Jobs, Strings, Profile
-- PocketBase v0.23.6 backend server setup
+**✅ Completed (Phase 1-4):**
+- React Native/Expo project with TypeScript and 4-tab navigation
+- PocketBase v0.23.6 backend with production-ready database schema
+- Complete API client with TypeScript interfaces for all collections
 - Task-based development workflow (Taskfile.yml)
-- Comprehensive gitignore and project structure
+- 4 PocketBase collections: racquets, strings, string_jobs, sessions
+- User-scoped security rules and proper data relationships
 - Web testing available at http://localhost:8081
-- PocketBase admin at http://localhost:8090/_/ (when running)
+- PocketBase admin at http://localhost:8090/_/ with schema import ready
 
-**🔄 Next Steps (Phase 4):**
-- Design and create PocketBase collections schema
-- Setup API client for React Native ↔ PocketBase communication
-- Implement authentication flow
-- Build CRUD screens for racquet management
+**🔄 Current Phase (Phase 5):**
+- Authentication screens and user registration/login flow
+- User session management and protected routes
+- Integration of auth state with React Native navigation
 
-**📋 Pending Features (Phase 5-7):**
-- String job creation and history tracking
-- Photo/image support for racquets
-- Advanced filtering and search
-- Sound-based tension analysis (future)
+**📋 Next Features (Phase 6-8):**
+- Core CRUD functionality for racquets, string jobs, and sessions
+- Photo/image support for racquet documentation
+- Advanced filtering, search, and data visualization
+- Sound-based tension analysis (future research phase)
 
 ## Expo Router Concepts
 
@@ -126,12 +128,36 @@ task backend:admin # Create admin user
 - API endpoint: http://localhost:8090/api/
 - Development mode: Enabled with SQL logging
 
-**Default Collections:**
-- `users`: User authentication and profiles
-- `_superusers`: Admin users
-- System collections for auth, MFA, external auth
+**System Collections:**
+- `users`: User authentication with profiles (name, email, avatar)
+- `_superusers`: Admin users for backend management
+- System collections for auth, MFA, external auth, password resets
 
-**Planned Tennis Collections:**
-- `racquets`: Brand, model, specifications, photos
-- `strings`: String database with characteristics
-- `string_jobs`: Jobs linking racquets to strings with tensions/dates
+**Tennis Collections (Production Ready):**
+- `racquets`: User's racquets (name required, brand, model, pattern, weight, notes)
+- `strings`: Shared string database (model required, brand, material, gauge, color)
+- `string_jobs`: String installations (racquet, main/cross strings, tensions in lbs)
+- `sessions`: Performance tracking (duration, rating, string breakage per string job)
+
+**Schema Import:**
+- Complete schema available in `backend/stringr_schemas.json`
+- 30-second import: Admin → Settings → Import collections
+- Includes proper security rules and field constraints
+- Ready for production use with user data isolation
+
+## API Client Features
+
+**TypeScript Integration (lib/pocketbase.ts):**
+- Complete type definitions for all collections
+- Authentication helpers (login, register, logout, session management)
+- CRUD operations for racquets, strings, string_jobs, sessions
+- Relationship expansion and filtering
+- Search functionality for strings
+- User-scoped data access
+
+**Available API Functions:**
+- `auth.login()`, `auth.register()`, `auth.getCurrentUser()`
+- `api.racquets.list()`, `api.racquets.create()`, etc.
+- `api.strings.search()`, `api.strings.list()`
+- `api.stringJobs.getByRacquet()`, `api.stringJobs.create()`
+- `api.sessions.getByStringJob()`, `api.sessions.create()`
