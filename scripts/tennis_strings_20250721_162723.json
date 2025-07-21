@@ -1,0 +1,4702 @@
+[
+  {
+    "brand": "Weiss",
+    "model": "Cannon Ultra Cable 17",
+    "material": "Polyester",
+    "gauge": "1.23",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 174.9lb/in, Loss: 47.7, Spin: 11.9",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.838753"
+  },
+  {
+    "brand": "Volkl",
+    "model": "V-Square 16",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 190.9lb/in, Loss: 47.9, Spin: 11.3",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.838803"
+  },
+  {
+    "brand": "Weiss",
+    "model": "Cannon Blue Rock N Power",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 224.0lb/in, Loss: 27.0, Spin: 11.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.838836"
+  },
+  {
+    "brand": "Babolat",
+    "model": "RPM Blast Rough 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 196.0lb/in, Loss: 35.7, Spin: 9.9",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.838865"
+  },
+  {
+    "brand": "Tecnifibre",
+    "model": "Black Code 4S 17",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 209.2lb/in, Loss: 28.3, Spin: 9.8",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.838895"
+  },
+  {
+    "brand": "Toroline",
+    "model": "O-Toro 17",
+    "material": "Polyester",
+    "gauge": "1.23",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 165.7lb/in, Loss: 44.4, Spin: 9.4",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.838922"
+  },
+  {
+    "brand": "Diadem",
+    "model": "Elite XT 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 189.2lb/in, Loss: 31.7, Spin: 9.3",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.838948"
+  },
+  {
+    "brand": "Tecnifibre",
+    "model": "Black Code 4S 16",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 242.9lb/in, Loss: 25.5, Spin: 9.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.838973"
+  },
+  {
+    "brand": "Volkl",
+    "model": "Cyclone 18L",
+    "material": "Polyester",
+    "gauge": "1.15",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 188.0lb/in, Loss: 29.4, Spin: 9.0",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.838999"
+  },
+  {
+    "brand": "Volkl",
+    "model": "Cyclone Tour 16",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 167.4lb/in, Loss: 52.1, Spin: 8.7",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.839024"
+  },
+  {
+    "brand": "Diadem",
+    "model": "Elite XT 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 204.6lb/in, Loss: 40.4, Spin: 8.7",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.839049"
+  },
+  {
+    "brand": "Diadem",
+    "model": "Solstice Power 17",
+    "material": "Polyester",
+    "gauge": "1.20",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 196.6lb/in, Loss: 28.5, Spin: 8.6",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.839073"
+  },
+  {
+    "brand": "MSV",
+    "model": "Focus-Hex 16",
+    "material": "Polyester",
+    "gauge": "1.27",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 185.7lb/in, Loss: 43.3, Spin: 8.6",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.839098"
+  },
+  {
+    "brand": "Weiss",
+    "model": "Cannon Red Ghost  17L",
+    "material": "Polyester",
+    "gauge": "1.18",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 189.7lb/in, Loss: 34.0, Spin: 8.5",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.839123"
+  },
+  {
+    "brand": "Volkl",
+    "model": "V-Torque Tour 16",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 184.0lb/in, Loss: 38.3, Spin: 8.5",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.839147"
+  },
+  {
+    "brand": "Luxilon",
+    "model": "ECO Power 17",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 194.9lb/in, Loss: 34.5, Spin: 8.3",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.839172"
+  },
+  {
+    "brand": "Pacific",
+    "model": "Poly Power Pro 16",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 194.9lb/in, Loss: 43.7, Spin: 8.3",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.839196"
+  },
+  {
+    "brand": "Toroline",
+    "model": "O-Toro Spin 17",
+    "material": "Polyester",
+    "gauge": "1.23",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 173.2lb/in, Loss: 38.3, Spin: 8.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.839221"
+  },
+  {
+    "brand": "Volkl",
+    "model": "Cyclone 19",
+    "material": "Polyester",
+    "gauge": "1.10",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 182.9lb/in, Loss: 33.2, Spin: 8.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.839245"
+  },
+  {
+    "brand": "Babolat",
+    "model": "RPM Blast Rough 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 209.7lb/in, Loss: 29.5, Spin: 8.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.839269"
+  },
+  {
+    "brand": "Diadem",
+    "model": "Solstice Power 16",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 202.9lb/in, Loss: 29.6, Spin: 8.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.839293"
+  },
+  {
+    "brand": "Solinco",
+    "model": "Revolution 16L",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 212.6lb/in, Loss: 28.4, Spin: 8.0",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.839318"
+  },
+  {
+    "brand": "Prince",
+    "model": "Vortex 16",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 188.0lb/in, Loss: 58.5, Spin: 8.0",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.839344"
+  },
+  {
+    "brand": "Volkl",
+    "model": "Cyclone Tour 18",
+    "material": "Polyester",
+    "gauge": "1.20",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 159.4lb/in, Loss: 51.3, Spin: 7.8",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.839369"
+  },
+  {
+    "brand": "MSV",
+    "model": "Focus-Hex +38 16L",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 173.2lb/in, Loss: 53.5, Spin: 7.7",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.839394"
+  },
+  {
+    "brand": "Wilson",
+    "model": "Revolve 17",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 192.0lb/in, Loss: 36.2, Spin: 7.7",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.839418"
+  },
+  {
+    "brand": "Double",
+    "model": "AR Diablo",
+    "material": "Polyester",
+    "gauge": "1.31",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 169.7lb/in, Loss: 55.7, Spin: 7.7",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.839443"
+  },
+  {
+    "brand": "Toroline",
+    "model": "O-Toro Tour 17",
+    "material": "Polyester",
+    "gauge": "1.23",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 216.6lb/in, Loss: 25.0, Spin: 7.7",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.839467"
+  },
+  {
+    "brand": "Yonex",
+    "model": "Poly Tour Drive 16L",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 195.5lb/in, Loss: 47.1, Spin: 7.6",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.839492"
+  },
+  {
+    "brand": "Kirschbaum",
+    "model": "Spiky Shark 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 216.0lb/in, Loss: 47.4, Spin: 7.5",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.839516"
+  },
+  {
+    "brand": "Head",
+    "model": "Hawk Power 17",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 203.5lb/in, Loss: 48.3, Spin: 7.5",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.839540"
+  },
+  {
+    "brand": "MSV",
+    "model": "Focus-Hex 16",
+    "material": "Polyester",
+    "gauge": "1.23",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 218.9lb/in, Loss: 29.1, Spin: 7.5",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.839564"
+  },
+  {
+    "brand": "Solinco",
+    "model": "Hyper-G 18",
+    "material": "Polyester",
+    "gauge": "1.15",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 180.0lb/in, Loss: 28.3, Spin: 7.5",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.839588"
+  },
+  {
+    "brand": "Double",
+    "model": "AR Diablo",
+    "material": "Polyester",
+    "gauge": "1.24",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 166.9lb/in, Loss: 55.4, Spin: 7.4",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.839612"
+  },
+  {
+    "brand": "Tecnifibre",
+    "model": "Razor Soft 17",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 212.0lb/in, Loss: 33.3, Spin: 7.4",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.839636"
+  },
+  {
+    "brand": "Kirschbaum",
+    "model": "Spiky Shark 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 197.7lb/in, Loss: 53.5, Spin: 7.4",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.839661"
+  },
+  {
+    "brand": "Solinco",
+    "model": "Tour Bite Soft 18",
+    "material": "Polyester",
+    "gauge": "1.15",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 172.0lb/in, Loss: 31.3, Spin: 7.3",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.839686"
+  },
+  {
+    "brand": "MSV",
+    "model": "Focus Hex Soft 17L",
+    "material": "Polyester",
+    "gauge": "1.20",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 194.3lb/in, Loss: 25.8, Spin: 7.3",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.839710"
+  },
+  {
+    "brand": "Signum",
+    "model": "Pro Plasma HEXtreme 16",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 225.7lb/in, Loss: 24.8, Spin: 7.3",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.839734"
+  },
+  {
+    "brand": "Solinco",
+    "model": "Hyper-G 16 Round",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 226.3lb/in, Loss: 32.3, Spin: 7.3",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.839758"
+  },
+  {
+    "brand": "Babolat",
+    "model": "RPM Blast 15L",
+    "material": "Polyester",
+    "gauge": "1.35",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 236.6lb/in, Loss: 32.9, Spin: 7.3",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.839781"
+  },
+  {
+    "brand": "Double",
+    "model": "AR WTS 25",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 168.0lb/in, Loss: 56.5, Spin: 7.3",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.839811"
+  },
+  {
+    "brand": "Babolat",
+    "model": "RPM Blast Rough 15L",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 199.5lb/in, Loss: 37.0, Spin: 7.3",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.839833"
+  },
+  {
+    "brand": "Diadem",
+    "model": "Solstice Power 16L",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 209.2lb/in, Loss: 27.1, Spin: 7.3",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.839858"
+  },
+  {
+    "brand": "Diadem",
+    "model": "Solstice Pro 16L",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 178.9lb/in, Loss: 31.4, Spin: 7.3",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.839882"
+  },
+  {
+    "brand": "Yonex",
+    "model": "Polytour Rev 16L",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 193.2lb/in, Loss: 34.4, Spin: 7.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.839907"
+  },
+  {
+    "brand": "Wilson",
+    "model": "Revolve 16",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 184.0lb/in, Loss: 45.2, Spin: 7.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.839931"
+  },
+  {
+    "brand": "MSV",
+    "model": "Co-Focus 17L",
+    "material": "Polyester",
+    "gauge": "1.18",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 185.7lb/in, Loss: 31.0, Spin: 7.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.839954"
+  },
+  {
+    "brand": "Solinco",
+    "model": "Tour Bite 19",
+    "material": "Polyester",
+    "gauge": "1.10",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 171.5lb/in, Loss: 32.2, Spin: 7.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.839978"
+  },
+  {
+    "brand": "Double",
+    "model": "AR Twice Dragon",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 170.9lb/in, Loss: 51.2, Spin: 7.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.840003"
+  },
+  {
+    "brand": "Gamma",
+    "model": "Ocho 17",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 231.5lb/in, Loss: 21.0, Spin: 7.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.840029"
+  },
+  {
+    "brand": "Head",
+    "model": "Lynx Tour 17",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 217.7lb/in, Loss: 24.6, Spin: 7.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.840053"
+  },
+  {
+    "brand": "Diadem",
+    "model": "Solstice Power 15L",
+    "material": "Polyester",
+    "gauge": "1.35",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 228.6lb/in, Loss: 29.6, Spin: 7.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.840078"
+  },
+  {
+    "brand": "Volkl",
+    "model": "Cyclone 18",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 181.2lb/in, Loss: 48.1, Spin: 7.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.840102"
+  },
+  {
+    "brand": "Kirschbaum",
+    "model": "Xplosive Speed 1.25",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 185.7lb/in, Loss: 41.4, Spin: 7.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.840127"
+  },
+  {
+    "brand": "Diadem",
+    "model": "Solstice Pro 15L",
+    "material": "Polyester",
+    "gauge": "1.35",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 192.6lb/in, Loss: 28.0, Spin: 7.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.840151"
+  },
+  {
+    "brand": "Luxilon",
+    "model": "Element Rough 16",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 198.3lb/in, Loss: 34.9, Spin: 7.0",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.840175"
+  },
+  {
+    "brand": "Head",
+    "model": "Lynx 16",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 185.7lb/in, Loss: 45.6, Spin: 7.0",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.840199"
+  },
+  {
+    "brand": "IsoSpeed",
+    "model": "Pyramid 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 174.9lb/in, Loss: 58.0, Spin: 7.0",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.840223"
+  },
+  {
+    "brand": "Gamma",
+    "model": "Moto Soft 17",
+    "material": "Polyester",
+    "gauge": "1.24",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 184.0lb/in, Loss: 34.8, Spin: 7.0",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.840247"
+  },
+  {
+    "brand": "Luxilon",
+    "model": "Element Soft IR 1.27",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 197.7lb/in, Loss: 43.7, Spin: 7.0",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.840272"
+  },
+  {
+    "brand": "Babolat",
+    "model": "RPM Blast Orange 16",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 210.3lb/in, Loss: 38.9, Spin: 7.0",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.840296"
+  },
+  {
+    "brand": "Solinco",
+    "model": "Hyper-G 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 219.5lb/in, Loss: 26.3, Spin: 7.0",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.840320"
+  },
+  {
+    "brand": "Luxilon",
+    "model": "Alu Power Soft 1.25",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 197.7lb/in, Loss: 36.6, Spin: 6.9",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.840344"
+  },
+  {
+    "brand": "Gamma",
+    "model": "Ocho 16",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 242.9lb/in, Loss: 23.3, Spin: 6.9",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.840368"
+  },
+  {
+    "brand": "Solinco",
+    "model": "Tour Bite 16 Soft",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 184.0lb/in, Loss: 50.3, Spin: 6.9",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.840392"
+  },
+  {
+    "brand": "Volkl",
+    "model": "V-Star 16",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 172.6lb/in, Loss: 54.5, Spin: 6.9",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.840416"
+  },
+  {
+    "brand": "Luxilon",
+    "model": "LXN Smart 16L",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 201.2lb/in, Loss: 42.7, Spin: 6.8",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.840440"
+  },
+  {
+    "brand": "Tourna",
+    "model": "Big HItter Silver 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 209.2lb/in, Loss: 26.3, Spin: 6.8",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.840464"
+  },
+  {
+    "brand": "Kirschbaum",
+    "model": "Max Power Rough 18",
+    "material": "Polyester",
+    "gauge": "1.20",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 195.5lb/in, Loss: 27.8, Spin: 6.8",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.840488"
+  },
+  {
+    "brand": "Prince",
+    "model": "Tour XR 15L",
+    "material": "Polyester",
+    "gauge": "1.35",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 213.2lb/in, Loss: 48.6, Spin: 6.7",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.840512"
+  },
+  {
+    "brand": "Solinco",
+    "model": "Tour Bite 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 202.9lb/in, Loss: 47.1, Spin: 6.7",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.840535"
+  },
+  {
+    "brand": "Gamma",
+    "model": "Jet 16L",
+    "material": "Polyester",
+    "gauge": "1.28",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 197.7lb/in, Loss: 37.6, Spin: 6.7",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.840560"
+  },
+  {
+    "brand": "Prince",
+    "model": "Tour XP 17",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 189.2lb/in, Loss: 36.1, Spin: 6.7",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.840585"
+  },
+  {
+    "brand": "Luxilon",
+    "model": "4G Soft 1.25",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 217.2lb/in, Loss: 25.4, Spin: 6.7",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.840610"
+  },
+  {
+    "brand": "L-Tec",
+    "model": "Premium 4S 16L",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 233.7lb/in, Loss: 35.3, Spin: 6.7",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.840634"
+  },
+  {
+    "brand": "Pacific",
+    "model": "XCite 16",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 220.0lb/in, Loss: 26.7, Spin: 6.6",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.840659"
+  },
+  {
+    "brand": "Solinco",
+    "model": "Outlast 18",
+    "material": "Polyester",
+    "gauge": "1.15",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 186.3lb/in, Loss: 26.9, Spin: 6.6",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.840684"
+  },
+  {
+    "brand": "Solinco",
+    "model": "Revolution 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 188.6lb/in, Loss: 50.0, Spin: 6.6",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.840709"
+  },
+  {
+    "brand": "Luxilon",
+    "model": "Element 1.30",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 191.5lb/in, Loss: 44.3, Spin: 6.6",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.840733"
+  },
+  {
+    "brand": "Gosen",
+    "model": "Lumina Spin 16L",
+    "material": "Polyester",
+    "gauge": "1.26",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 178.3lb/in, Loss: 50.0, Spin: 6.6",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.840758"
+  },
+  {
+    "brand": "Tecnifibre",
+    "model": "Pro Red Code Wax 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 235.5lb/in, Loss: 28.8, Spin: 6.5",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.840783"
+  },
+  {
+    "brand": "Volkl",
+    "model": "V-Star 19",
+    "material": "Polyester",
+    "gauge": "1.10",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 166.9lb/in, Loss: 35.7, Spin: 6.5",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.840812"
+  },
+  {
+    "brand": "Solinco",
+    "model": "Outlast 16L",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 208.0lb/in, Loss: 28.8, Spin: 6.5",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.840837"
+  },
+  {
+    "brand": "MSV",
+    "model": "Focus Hex 17L",
+    "material": "Polyester",
+    "gauge": "1.18",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 224.0lb/in, Loss: 27.5, Spin: 6.5",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.840862"
+  },
+  {
+    "brand": "Luxilon",
+    "model": "ALU Power Rough 16L",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 209.2lb/in, Loss: 39.6, Spin: 6.5",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.840888"
+  },
+  {
+    "brand": "Volkl",
+    "model": "V-Star 18L",
+    "material": "Polyester",
+    "gauge": "1.15",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 174.3lb/in, Loss: 33.1, Spin: 6.5",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.840913"
+  },
+  {
+    "brand": "Head",
+    "model": "Hawk 16",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 230.3lb/in, Loss: 28.5, Spin: 6.4",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.840938"
+  },
+  {
+    "brand": "Prince",
+    "model": "Tour XT 18",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 184.0lb/in, Loss: 38.2, Spin: 6.4",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.840964"
+  },
+  {
+    "brand": "Gamma",
+    "model": "Moto Soft 16",
+    "material": "Polyester",
+    "gauge": "1.29",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 200.0lb/in, Loss: 31.4, Spin: 6.4",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.840990"
+  },
+  {
+    "brand": "Solinco",
+    "model": "Confidential 16",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 222.3lb/in, Loss: 22.2, Spin: 6.4",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.841016"
+  },
+  {
+    "brand": "Gamma",
+    "model": "IO 18",
+    "material": "Polyester",
+    "gauge": "1.18",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 188.6lb/in, Loss: 30.4, Spin: 6.4",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.841042"
+  },
+  {
+    "brand": "Solinco",
+    "model": "Revolution 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 215.5lb/in, Loss: 47.4, Spin: 6.4",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.841066"
+  },
+  {
+    "brand": "LaserFibre",
+    "model": "Vorso 16",
+    "material": "Polyester",
+    "gauge": "1.28",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 180.6lb/in, Loss: 51.5, Spin: 6.4",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.841091"
+  },
+  {
+    "brand": "MSV",
+    "model": "Focus Hex Soft  17",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 228.0lb/in, Loss: 29.4, Spin: 6.3",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.841116"
+  },
+  {
+    "brand": "Yonex",
+    "model": "Poly Tour Spin 16L",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 213.7lb/in, Loss: 27.2, Spin: 6.3",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.841141"
+  },
+  {
+    "brand": "Gamma",
+    "model": "IO Soft 15L",
+    "material": "Polyester",
+    "gauge": "1.40",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 219.5lb/in, Loss: 32.9, Spin: 6.3",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.841166"
+  },
+  {
+    "brand": "Solinco",
+    "model": "Revolution 18",
+    "material": "Polyester",
+    "gauge": "1.16",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 195.5lb/in, Loss: 28.7, Spin: 6.3",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.841194"
+  },
+  {
+    "brand": "Solinco",
+    "model": "Tour Bite 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 181.2lb/in, Loss: 48.6, Spin: 6.3",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.841219"
+  },
+  {
+    "brand": "Head",
+    "model": "Hawk 18",
+    "material": "Polyester",
+    "gauge": "1.20",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 194.3lb/in, Loss: 28.9, Spin: 6.3",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.841244"
+  },
+  {
+    "brand": "Tourna",
+    "model": "Big Hitter Black 7 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 175.5lb/in, Loss: 43.0, Spin: 6.3",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.841268"
+  },
+  {
+    "brand": "Head",
+    "model": "Lynx 18",
+    "material": "Polyester",
+    "gauge": "1.20",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 174.9lb/in, Loss: 45.6, Spin: 6.3",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.841293"
+  },
+  {
+    "brand": "Signum",
+    "model": "Pro Yellow Jacket 17g",
+    "material": "Polyester",
+    "gauge": "1.22",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 197.7lb/in, Loss: 32.6, Spin: 6.3",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.841317"
+  },
+  {
+    "brand": "Gamma",
+    "model": "Moto 17",
+    "material": "Polyester",
+    "gauge": "1.24",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 201.7lb/in, Loss: 25.7, Spin: 6.3",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.841342"
+  },
+  {
+    "brand": "Klip",
+    "model": "K-Boom 18",
+    "material": "Polyester",
+    "gauge": "1.20",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 190.3lb/in, Loss: 31.5, Spin: 6.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.841366"
+  },
+  {
+    "brand": "Signum",
+    "model": "Pro X-Perience 17",
+    "material": "Polyester",
+    "gauge": "1.24",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 224.6lb/in, Loss: 25.2, Spin: 6.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.841391"
+  },
+  {
+    "brand": "LaserFibre",
+    "model": "Vorso 17",
+    "material": "Polyester",
+    "gauge": "1.23",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 177.7lb/in, Loss: 42.2, Spin: 6.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.841415"
+  },
+  {
+    "brand": "Polyfibre",
+    "model": "Black Venom Rough 16L",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 162.3lb/in, Loss: 60.8, Spin: 6.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.841441"
+  },
+  {
+    "brand": "Head",
+    "model": "Lynx Touch 16g",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 221.7lb/in, Loss: 31.3, Spin: 6.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.841465"
+  },
+  {
+    "brand": "Volkl",
+    "model": "Cyclone 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 197.2lb/in, Loss: 47.9, Spin: 6.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.841489"
+  },
+  {
+    "brand": "Y-Tex",
+    "model": "Quadro Twist 16L",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 177.7lb/in, Loss: 48.5, Spin: 6.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.841513"
+  },
+  {
+    "brand": "Genesis",
+    "model": "Black Magic 16",
+    "material": "Polyester",
+    "gauge": "1.29",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 207.5lb/in, Loss: 36.1, Spin: 6.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.841539"
+  },
+  {
+    "brand": "Solinco",
+    "model": "Hyper-G 16L",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 218.3lb/in, Loss: 24.7, Spin: 6.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.841564"
+  },
+  {
+    "brand": "Gamma",
+    "model": "Zo Tour Rough 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 186.9lb/in, Loss: 48.9, Spin: 6.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.841588"
+  },
+  {
+    "brand": "Volkl",
+    "model": "Cyclone Tour 17",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 170.9lb/in, Loss: 52.6, Spin: 6.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.841615"
+  },
+  {
+    "brand": "Tecnifibre",
+    "model": "Black Code 4S 18",
+    "material": "Polyester",
+    "gauge": "1.20",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 210.3lb/in, Loss: 25.4, Spin: 6.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.841639"
+  },
+  {
+    "brand": "Tecnifibre",
+    "model": "Black Code 15L",
+    "material": "Polyester",
+    "gauge": "1.32",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 210.3lb/in, Loss: 29.5, Spin: 6.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.841664"
+  },
+  {
+    "brand": "Gamma",
+    "model": "Zo Verve 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 230.9lb/in, Loss: 25.3, Spin: 6.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.841690"
+  },
+  {
+    "brand": "Kirschbaum",
+    "model": "Max Power 18",
+    "material": "Polyester",
+    "gauge": "1.20",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 226.3lb/in, Loss: 21.8, Spin: 6.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.841716"
+  },
+  {
+    "brand": "Wilson",
+    "model": "Revolve 15",
+    "material": "Polyester",
+    "gauge": "1.35",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 192.0lb/in, Loss: 41.6, Spin: 6.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.841743"
+  },
+  {
+    "brand": "Solinco",
+    "model": "Hyper-G 17",
+    "material": "Polyester",
+    "gauge": "1.20",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 194.9lb/in, Loss: 25.7, Spin: 6.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.841770"
+  },
+  {
+    "brand": "Gamma",
+    "model": "IO Soft 16",
+    "material": "Polyester",
+    "gauge": "1.28",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 200.0lb/in, Loss: 33.7, Spin: 6.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.841800"
+  },
+  {
+    "brand": "Head",
+    "model": "Lynx Tour 16",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 228.6lb/in, Loss: 30.5, Spin: 6.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.841827"
+  },
+  {
+    "brand": "Tecnifibre",
+    "model": "Razor Code 18",
+    "material": "Polyester",
+    "gauge": "1.20",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 216.6lb/in, Loss: 28.3, Spin: 6.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.841851"
+  },
+  {
+    "brand": "Solinco",
+    "model": "Mach 10 16",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 222.3lb/in, Loss: 26.3, Spin: 6.0",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.841876"
+  },
+  {
+    "brand": "Volkl",
+    "model": "V-Torque 18",
+    "material": "Polyester",
+    "gauge": "1.18",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 157.2lb/in, Loss: 45.7, Spin: 6.0",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.841900"
+  },
+  {
+    "brand": "Tourna",
+    "model": "Black Zone 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 186.9lb/in, Loss: 31.5, Spin: 6.0",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.841924"
+  },
+  {
+    "brand": "Kirschbaum",
+    "model": "Max Power Rough 16",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 230.9lb/in, Loss: 28.3, Spin: 6.0",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.841948"
+  },
+  {
+    "brand": "Solinco",
+    "model": "Outlast 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 208.0lb/in, Loss: 47.3, Spin: 6.0",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.841970"
+  },
+  {
+    "brand": "Solinco",
+    "model": "Tour Bite 16L",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 237.7lb/in, Loss: 25.2, Spin: 5.9",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.841993"
+  },
+  {
+    "brand": "Gamma",
+    "model": "Zo Verve 16",
+    "material": "Polyester",
+    "gauge": "1.32",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 229.2lb/in, Loss: 22.2, Spin: 5.9",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.842016"
+  },
+  {
+    "brand": "Signum",
+    "model": "Pro Tornado 18",
+    "material": "Polyester",
+    "gauge": "1.17",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 167.4lb/in, Loss: 39.1, Spin: 5.9",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.842038"
+  },
+  {
+    "brand": "Prince",
+    "model": "Tour XR 17",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 203.5lb/in, Loss: 42.2, Spin: 5.9",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.842060"
+  },
+  {
+    "brand": "Signum",
+    "model": "Pro Plasma HEXtreme 16L/1.25",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 204.6lb/in, Loss: 41.5, Spin: 5.9",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.842083"
+  },
+  {
+    "brand": "Kirschbaum",
+    "model": "Max Power 16",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 233.2lb/in, Loss: 20.9, Spin: 5.9",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.842106"
+  },
+  {
+    "brand": "Prince",
+    "model": "Tour XC 17L",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 205.7lb/in, Loss: 36.6, Spin: 5.9",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.842128"
+  },
+  {
+    "brand": "Gamma",
+    "model": "IO Soft 17",
+    "material": "Polyester",
+    "gauge": "1.23",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 192.6lb/in, Loss: 33.9, Spin: 5.9",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.842150"
+  },
+  {
+    "brand": "Solinco",
+    "model": "Tour Bite 20",
+    "material": "Polyester",
+    "gauge": "1.05",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 136.0lb/in, Loss: 47.3, Spin: 5.8",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.842173"
+  },
+  {
+    "brand": "Topspin",
+    "model": "Cyber Blue 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 189.7lb/in, Loss: 43.3, Spin: 5.8",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.842197"
+  },
+  {
+    "brand": "Pacific",
+    "model": "XCite 16L",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 206.3lb/in, Loss: 27.8, Spin: 5.8",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.842220"
+  },
+  {
+    "brand": "Volkl",
+    "model": "Cyclone 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 191.5lb/in, Loss: 48.1, Spin: 5.8",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.842243"
+  },
+  {
+    "brand": "Luxilon",
+    "model": "ALU Power 125/16L",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 209.2lb/in, Loss: 46.6, Spin: 5.8",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.842265"
+  },
+  {
+    "brand": "Gosen",
+    "model": "Polylon Premium 16",
+    "material": "Polyester",
+    "gauge": "1.32",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 217.7lb/in, Loss: 31.0, Spin: 5.8",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.842288"
+  },
+  {
+    "brand": "Dunlop",
+    "model": "Black Widow 18",
+    "material": "Polyester",
+    "gauge": "1.21",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 194.9lb/in, Loss: 30.9, Spin: 5.8",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.842311"
+  },
+  {
+    "brand": "Solinco",
+    "model": "Tour Bite Soft 16L",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 192.0lb/in, Loss: 29.3, Spin: 5.8",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.842333"
+  },
+  {
+    "brand": "Kirschbaum",
+    "model": "Black Shark 17",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 216.6lb/in, Loss: 38.4, Spin: 5.8",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.842356"
+  },
+  {
+    "brand": "Signum",
+    "model": "Pro Hyperion 18",
+    "material": "Polyester",
+    "gauge": "1.18",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 184.0lb/in, Loss: 36.1, Spin: 5.8",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.842378"
+  },
+  {
+    "brand": "Topspin",
+    "model": "Cyber Whirl 17",
+    "material": "Polyester",
+    "gauge": "1.24",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 204.0lb/in, Loss: 27.0, Spin: 5.8",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.842400"
+  },
+  {
+    "brand": "Gamma",
+    "model": "Moto 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 226.9lb/in, Loss: 30.8, Spin: 5.8",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.842422"
+  },
+  {
+    "brand": "Dunlop",
+    "model": "Ice 16",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 204.6lb/in, Loss: 45.4, Spin: 5.8",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.842444"
+  },
+  {
+    "brand": "Solinco",
+    "model": "Tour Bite 18",
+    "material": "Polyester",
+    "gauge": "1.15",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 161.7lb/in, Loss: 50.6, Spin: 5.8",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.842466"
+  },
+  {
+    "brand": "Yonex",
+    "model": "Poly Tour Fire 16L",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 194.9lb/in, Loss: 35.0, Spin: 5.8",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.842488"
+  },
+  {
+    "brand": "Double",
+    "model": "AR Twice Shark",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 143.4lb/in, Loss: 63.8, Spin: 5.7",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.842510"
+  },
+  {
+    "brand": "Kirschbaum",
+    "model": "Xplosive Speed 1.30",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 193.2lb/in, Loss: 43.3, Spin: 5.7",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.842532"
+  },
+  {
+    "brand": "Gamma",
+    "model": "IO 17",
+    "material": "Polyester",
+    "gauge": "1.23",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 197.7lb/in, Loss: 29.8, Spin: 5.7",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.842556"
+  },
+  {
+    "brand": "MSV",
+    "model": "Hepta-Twist 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 181.2lb/in, Loss: 50.2, Spin: 5.7",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.842578"
+  },
+  {
+    "brand": "Head",
+    "model": "Lynx 17",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 179.5lb/in, Loss: 47.0, Spin: 5.7",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.842600"
+  },
+  {
+    "brand": "Kirschbaum",
+    "model": "Pro Line II 1.30",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 209.7lb/in, Loss: 47.6, Spin: 5.7",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.842623"
+  },
+  {
+    "brand": "Yonex",
+    "model": "Poly Tour HS 16L",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 198.3lb/in, Loss: 28.5, Spin: 5.7",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.842647"
+  },
+  {
+    "brand": "Solinco",
+    "model": "Tour Bite Soft 17",
+    "material": "Polyester",
+    "gauge": "1.20",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 186.3lb/in, Loss: 29.2, Spin: 5.7",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.842670"
+  },
+  {
+    "brand": "Kirschbaum",
+    "model": "Super Smash 17",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 210.9lb/in, Loss: 48.0, Spin: 5.7",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.842694"
+  },
+  {
+    "brand": "Tecnifibre",
+    "model": "Razor Code 17",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 229.2lb/in, Loss: 29.6, Spin: 5.6",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.842717"
+  },
+  {
+    "brand": "Solinco",
+    "model": "Barb Wire 16L",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 182.9lb/in, Loss: 33.5, Spin: 5.6",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.842739"
+  },
+  {
+    "brand": "Signum",
+    "model": "Pro Poly-Plasma Pure 16L",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 221.2lb/in, Loss: 40.6, Spin: 5.6",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.842762"
+  },
+  {
+    "brand": "Tecnifibre",
+    "model": "Ice Code 16",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 221.2lb/in, Loss: 35.0, Spin: 5.6",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.842785"
+  },
+  {
+    "brand": "Tourna",
+    "model": "Black Zone 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 197.2lb/in, Loss: 29.5, Spin: 5.6",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.842811"
+  },
+  {
+    "brand": "Gosen",
+    "model": "Poly Professional 17",
+    "material": "Polyester",
+    "gauge": "1.24",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 169.2lb/in, Loss: 44.6, Spin: 5.6",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.842835"
+  },
+  {
+    "brand": "Kirschbaum",
+    "model": "Max Power Rough 17",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 223.5lb/in, Loss: 26.4, Spin: 5.6",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.842857"
+  },
+  {
+    "brand": "Tourna",
+    "model": "Big HItter Black 7 16",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 222.9lb/in, Loss: 24.3, Spin: 5.6",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.842878"
+  },
+  {
+    "brand": "Volkl",
+    "model": "V-Torque 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 181.7lb/in, Loss: 49.7, Spin: 5.6",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.842899"
+  },
+  {
+    "brand": "Weiss",
+    "model": "Cannon Mosquito Bite 18",
+    "material": "Polyester",
+    "gauge": "1.16",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 182.3lb/in, Loss: 35.4, Spin: 5.6",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.842919"
+  },
+  {
+    "brand": "Topspin",
+    "model": "Cyber Delta 17",
+    "material": "Polyester",
+    "gauge": "1.26",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 200.6lb/in, Loss: 34.7, Spin: 5.6",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.842939"
+  },
+  {
+    "brand": "IsoSpeed",
+    "model": "Black Fire 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 204.6lb/in, Loss: 39.3, Spin: 5.6",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.842959"
+  },
+  {
+    "brand": "Prince",
+    "model": "Tour XR 16",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 214.9lb/in, Loss: 40.9, Spin: 5.5",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.842980"
+  },
+  {
+    "brand": "Prince",
+    "model": "Tour XC 16L",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 205.7lb/in, Loss: 36.7, Spin: 5.5",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843001"
+  },
+  {
+    "brand": "Prince",
+    "model": "Tour XP 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 198.3lb/in, Loss: 36.5, Spin: 5.5",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843021"
+  },
+  {
+    "brand": "Solinco",
+    "model": "Outlast 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 182.9lb/in, Loss: 50.4, Spin: 5.5",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843041"
+  },
+  {
+    "brand": "Prince",
+    "model": "Tour XC 15L",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 208.6lb/in, Loss: 45.4, Spin: 5.5",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843062"
+  },
+  {
+    "brand": "Prince",
+    "model": "Tour XS 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 196.6lb/in, Loss: 36.2, Spin: 5.5",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843081"
+  },
+  {
+    "brand": "Boris",
+    "model": "Becker Bomber NYC 17",
+    "material": "Polyester",
+    "gauge": "1.23",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 205.7lb/in, Loss: 27.4, Spin: 5.5",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843103"
+  },
+  {
+    "brand": "Gosen",
+    "model": "Polylon Comfort 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 189.2lb/in, Loss: 54.1, Spin: 5.5",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843124"
+  },
+  {
+    "brand": "Signum",
+    "model": "Pro Firestorm 16",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 185.7lb/in, Loss: 43.0, Spin: 5.5",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843145"
+  },
+  {
+    "brand": "Luxilon",
+    "model": "Element 16L",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 208.0lb/in, Loss: 33.6, Spin: 5.5",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843165"
+  },
+  {
+    "brand": "Signum",
+    "model": "Pro Poly Plasma 17",
+    "material": "Polyester",
+    "gauge": "1.23",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 198.3lb/in, Loss: 26.0, Spin: 5.4",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843185"
+  },
+  {
+    "brand": "Gamma",
+    "model": "Poly Z 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 179.5lb/in, Loss: 51.8, Spin: 5.4",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843205"
+  },
+  {
+    "brand": "Solinco",
+    "model": "Tour Bite Diamond Rough 16L",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 191.5lb/in, Loss: 47.0, Spin: 5.4",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843226"
+  },
+  {
+    "brand": "Gosen",
+    "model": "Poly Professional 16",
+    "material": "Polyester",
+    "gauge": "1.29",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 186.3lb/in, Loss: 44.3, Spin: 5.4",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843246"
+  },
+  {
+    "brand": "Kirschbaum",
+    "model": "Touch Turbo 16L",
+    "material": "Polyester",
+    "gauge": "1.275",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 196.0lb/in, Loss: 48.5, Spin: 5.4",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843266"
+  },
+  {
+    "brand": "Luxilon",
+    "model": "ALU Power Feel 18/1.20",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 186.9lb/in, Loss: 42.9, Spin: 5.4",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843287"
+  },
+  {
+    "brand": "Kirschbaum",
+    "model": "Helix 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 208.6lb/in, Loss: 44.2, Spin: 5.4",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843307"
+  },
+  {
+    "brand": "Kirschbaum",
+    "model": "Black Shark 16",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 223.5lb/in, Loss: 41.2, Spin: 5.4",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843327"
+  },
+  {
+    "brand": "Dunlop",
+    "model": "Black Widow 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 216.6lb/in, Loss: 31.6, Spin: 5.4",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843347"
+  },
+  {
+    "brand": "RS",
+    "model": "RS Lyon 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 196.6lb/in, Loss: 36.0, Spin: 5.4",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843368"
+  },
+  {
+    "brand": "Kirschbaum",
+    "model": "Max Power 17",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 240.6lb/in, Loss: 23.5, Spin: 5.4",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843390"
+  },
+  {
+    "brand": "Gosen",
+    "model": "Polylon Premium 16L",
+    "material": "Polyester",
+    "gauge": "1.27",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 201.2lb/in, Loss: 32.7, Spin: 5.4",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843411"
+  },
+  {
+    "brand": "Tourna",
+    "model": "Big Hitter Silver 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 185.7lb/in, Loss: 44.0, Spin: 5.4",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843431"
+  },
+  {
+    "brand": "Kirschbaum",
+    "model": "Helix 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 204.6lb/in, Loss: 55.3, Spin: 5.4",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843451"
+  },
+  {
+    "brand": "Boris",
+    "model": "Becker Bomber NYC 16",
+    "material": "Polyester",
+    "gauge": "1.28",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 208.0lb/in, Loss: 28.2, Spin: 5.3",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843472"
+  },
+  {
+    "brand": "Gosen",
+    "model": "G-Tour 16",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 184.0lb/in, Loss: 31.1, Spin: 5.3",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843492"
+  },
+  {
+    "brand": "Kirschbaum",
+    "model": "Super Smash 16/1.30",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 221.7lb/in, Loss: 50.7, Spin: 5.3",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843513"
+  },
+  {
+    "brand": "Kirschbaum",
+    "model": "Touch Turbo 1.30",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 218.3lb/in, Loss: 45.7, Spin: 5.3",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843533"
+  },
+  {
+    "brand": "Gamma",
+    "model": "Zo Dart 17",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 206.9lb/in, Loss: 26.7, Spin: 5.3",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843554"
+  },
+  {
+    "brand": "Poly",
+    "model": "Star Turbo 16",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 165.2lb/in, Loss: 66.7, Spin: 5.3",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843575"
+  },
+  {
+    "brand": "Polyfibre",
+    "model": "Panthera 16",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 212.6lb/in, Loss: 28.7, Spin: 5.3",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843596"
+  },
+  {
+    "brand": "Yonex",
+    "model": "Poly Tour Tough 16L",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 193.7lb/in, Loss: 41.2, Spin: 5.3",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843616"
+  },
+  {
+    "brand": "Pacific",
+    "model": "Poly Power Pro 16L",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 180.0lb/in, Loss: 47.4, Spin: 5.3",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843637"
+  },
+  {
+    "brand": "Double",
+    "model": "AR Raptor 1.27",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 238.3lb/in, Loss: 22.3, Spin: 5.3",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843658"
+  },
+  {
+    "brand": "Luxilon",
+    "model": "ECO Spin 17",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 213.2lb/in, Loss: 26.4, Spin: 5.3",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843677"
+  },
+  {
+    "brand": "Dunlop",
+    "model": "Black Widow 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 193.2lb/in, Loss: 38.2, Spin: 5.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843697"
+  },
+  {
+    "brand": "Wilson",
+    "model": "Enduro Tour 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 251.5lb/in, Loss: 37.6, Spin: 5.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843717"
+  },
+  {
+    "brand": "Kirschbaum",
+    "model": "Super Smash Spiky 17",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 214.3lb/in, Loss: 51.0, Spin: 5.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843737"
+  },
+  {
+    "brand": "Wilson",
+    "model": "Ripspin 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 209.2lb/in, Loss: 37.8, Spin: 5.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843758"
+  },
+  {
+    "brand": "Signum",
+    "model": "Pro Poly-Plasma Pure 17",
+    "material": "Polyester",
+    "gauge": "1.23",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 199.5lb/in, Loss: 43.0, Spin: 5.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843779"
+  },
+  {
+    "brand": "Kirschbaum",
+    "model": "Touch Turbo 17",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 203.5lb/in, Loss: 45.3, Spin: 5.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843803"
+  },
+  {
+    "brand": "Babolat",
+    "model": "Pro Hurricane Tour 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 214.9lb/in, Loss: 44.8, Spin: 5.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843824"
+  },
+  {
+    "brand": "Polyfibre",
+    "model": "Hexablade 17L",
+    "material": "Polyester",
+    "gauge": "1.18",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 168.6lb/in, Loss: 63.8, Spin: 5.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843845"
+  },
+  {
+    "brand": "Solinco",
+    "model": "Hyper-G-Soft 16L",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 172.0lb/in, Loss: 28.7, Spin: 5.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843867"
+  },
+  {
+    "brand": "Yonex",
+    "model": "Poly Tour Pro 17",
+    "material": "Polyester",
+    "gauge": "1.20",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 188.6lb/in, Loss: 33.3, Spin: 5.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843890"
+  },
+  {
+    "brand": "Prince",
+    "model": "Tour XP 15L",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 184.6lb/in, Loss: 44.2, Spin: 5.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843912"
+  },
+  {
+    "brand": "Kirschbaum",
+    "model": "P2 16/1.30",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 218.9lb/in, Loss: 38.3, Spin: 5.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843936"
+  },
+  {
+    "brand": "Head",
+    "model": "Hawk Touch 18",
+    "material": "Polyester",
+    "gauge": "1.20",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 196.0lb/in, Loss: 31.9, Spin: 5.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843957"
+  },
+  {
+    "brand": "Wilson",
+    "model": "Ripspin 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 212.0lb/in, Loss: 39.6, Spin: 5.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843977"
+  },
+  {
+    "brand": "Topspin",
+    "model": "Cyber Blue 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 183.5lb/in, Loss: 46.1, Spin: 5.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.843997"
+  },
+  {
+    "brand": "IsoSpeed",
+    "model": "V18 19",
+    "material": "Polyester",
+    "gauge": "1.12",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 180.0lb/in, Loss: 40.4, Spin: 5.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.844017"
+  },
+  {
+    "brand": "Kirschbaum",
+    "model": "Super Smash Spiky 1.20",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 205.2lb/in, Loss: 52.7, Spin: 5.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.844037"
+  },
+  {
+    "brand": "Poly",
+    "model": "Star Strike 16",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 201.2lb/in, Loss: 49.1, Spin: 5.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.844056"
+  },
+  {
+    "brand": "Topspin",
+    "model": "Cyber Blue 17L",
+    "material": "Polyester",
+    "gauge": "1.20",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 184.6lb/in, Loss: 33.7, Spin: 5.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.844077"
+  },
+  {
+    "brand": "Dunlop",
+    "model": "Explosive 17",
+    "material": "Polyester",
+    "gauge": "1.26",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 192.0lb/in, Loss: 32.4, Spin: 5.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.844097"
+  },
+  {
+    "brand": "Solinco",
+    "model": "Tour Bite 15L",
+    "material": "Polyester",
+    "gauge": "1.35",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 238.9lb/in, Loss: 23.7, Spin: 5.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.844116"
+  },
+  {
+    "brand": "Boris",
+    "model": "Becker Bomber 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 204.6lb/in, Loss: 46.9, Spin: 5.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.844136"
+  },
+  {
+    "brand": "RS",
+    "model": "RS Lyon 17L",
+    "material": "Polyester",
+    "gauge": "1.20",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 182.9lb/in, Loss: 36.7, Spin: 5.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.844157"
+  },
+  {
+    "brand": "Kirschbaum",
+    "model": "Pro Line X 16",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 240.0lb/in, Loss: 27.2, Spin: 5.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.844178"
+  },
+  {
+    "brand": "Volkl",
+    "model": "V-Pro 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 188.0lb/in, Loss: 47.7, Spin: 5.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.844199"
+  },
+  {
+    "brand": "One",
+    "model": "Strings Carbon NRG 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 180.0lb/in, Loss: 42.3, Spin: 5.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.844221"
+  },
+  {
+    "brand": "Babolat",
+    "model": "RPM Blast 18",
+    "material": "Polyester",
+    "gauge": "1.20",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 189.2lb/in, Loss: 36.1, Spin: 5.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.844242"
+  },
+  {
+    "brand": "Gosen",
+    "model": "Polymaster II 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 172.0lb/in, Loss: 53.0, Spin: 5.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.844263"
+  },
+  {
+    "brand": "Babolat",
+    "model": "Pro Hurricane Tour 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 227.5lb/in, Loss: 46.1, Spin: 5.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.844285"
+  },
+  {
+    "brand": "Signum",
+    "model": "Pro Tornado 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 215.5lb/in, Loss: 47.7, Spin: 5.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.844306"
+  },
+  {
+    "brand": "Pacific",
+    "model": "Poly Force Xtreme 16L",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 218.3lb/in, Loss: 39.6, Spin: 5.0",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.844326"
+  },
+  {
+    "brand": "Dunlop",
+    "model": "Ice 17",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 192.6lb/in, Loss: 39.8, Spin: 5.0",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.844347"
+  },
+  {
+    "brand": "Luxilon",
+    "model": "Alu Power Vibe 16",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 208.0lb/in, Loss: 34.3, Spin: 5.0",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.844369"
+  },
+  {
+    "brand": "SuperString",
+    "model": "Viper V2 Rough 16L",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 194.3lb/in, Loss: 38.3, Spin: 5.0",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.844391"
+  },
+  {
+    "brand": "Volkl",
+    "model": "V-Pro 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 233.7lb/in, Loss: 39.2, Spin: 5.0",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.844413"
+  },
+  {
+    "brand": "Kirschbaum",
+    "model": "Super Smash Spiky 16/1.30",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 216.6lb/in, Loss: 54.6, Spin: 5.0",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.844436"
+  },
+  {
+    "brand": "Tecnifibre",
+    "model": "Pro Red Code 18",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 217.2lb/in, Loss: 36.3, Spin: 5.0",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.844459"
+  },
+  {
+    "brand": "Wilson",
+    "model": "Revolve Spin 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 172.6lb/in, Loss: 54.5, Spin: 5.0",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.844480"
+  },
+  {
+    "brand": "Dunlop",
+    "model": "Explosive 18",
+    "material": "Polyester",
+    "gauge": "1.20",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 194.3lb/in, Loss: 28.7, Spin: 5.0",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.844503"
+  },
+  {
+    "brand": "Poly",
+    "model": "Star Turbo 16L",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 168.6lb/in, Loss: 64.9, Spin: 5.0",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.844527"
+  },
+  {
+    "brand": "Yonex",
+    "model": "Poly Tour HS 16",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 213.7lb/in, Loss: 28.1, Spin: 5.0",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.844548"
+  },
+  {
+    "brand": "Pacific",
+    "model": "ATP Poly Power Pro 16L",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 194.3lb/in, Loss: 51.1, Spin: 5.0",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.844570"
+  },
+  {
+    "brand": "Signum",
+    "model": "Pro Poly-Plasma 17L",
+    "material": "Polyester",
+    "gauge": "1.18",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 197.2lb/in, Loss: 40.3, Spin: 5.0",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.844594"
+  },
+  {
+    "brand": "Prince",
+    "model": "Tour XS 1.35",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 195.5lb/in, Loss: 36.9, Spin: 5.0",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.844617"
+  },
+  {
+    "brand": "Tourna",
+    "model": "Big Hitter Blue 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 222.3lb/in, Loss: 36.3, Spin: 4.9",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.844642"
+  },
+  {
+    "brand": "Head",
+    "model": "Hawk Touch 19",
+    "material": "Polyester",
+    "gauge": "1.15",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 192.0lb/in, Loss: 32.8, Spin: 4.9",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.844665"
+  },
+  {
+    "brand": "MSV",
+    "model": "Focus Evo 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 226.3lb/in, Loss: 44.4, Spin: 4.9",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.844687"
+  },
+  {
+    "brand": "LaserFibre",
+    "model": "Native Tour 17",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 200.0lb/in, Loss: 46.1, Spin: 4.9",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.844710"
+  },
+  {
+    "brand": "Solinco",
+    "model": "Barb Wire 17",
+    "material": "Polyester",
+    "gauge": "1.20",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 186.3lb/in, Loss: 42.6, Spin: 4.9",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.844733"
+  },
+  {
+    "brand": "Kirschbaum",
+    "model": "Pro Line Evolution 17",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 208.0lb/in, Loss: 28.9, Spin: 4.9",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.844755"
+  },
+  {
+    "brand": "Tecnifibre",
+    "model": "Pro Red Code 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 232.0lb/in, Loss: 34.8, Spin: 4.9",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.844775"
+  },
+  {
+    "brand": "Kirschbaum",
+    "model": "Competition 16/1.30",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 210.3lb/in, Loss: 47.5, Spin: 4.9",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.844801"
+  },
+  {
+    "brand": "Head",
+    "model": "Hawk Rough 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 201.2lb/in, Loss: 23.9, Spin: 4.9",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.844824"
+  },
+  {
+    "brand": "Wilson",
+    "model": "Ripspin 15",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 212.0lb/in, Loss: 41.7, Spin: 4.9",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.844844"
+  },
+  {
+    "brand": "Weiss",
+    "model": "Cannon Scorpion 16L",
+    "material": "Polyester",
+    "gauge": "1.28",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 200.0lb/in, Loss: 35.2, Spin: 4.9",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.844866"
+  },
+  {
+    "brand": "Kirschbaum",
+    "model": "P2 17",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 235.5lb/in, Loss: 33.9, Spin: 4.9",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.844886"
+  },
+  {
+    "brand": "Solinco",
+    "model": "Tour Bite Diamond Rough 16",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 192.6lb/in, Loss: 52.0, Spin: 4.9",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.844906"
+  },
+  {
+    "brand": "Volkl",
+    "model": "V-Pro 18",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 213.2lb/in, Loss: 33.1, Spin: 4.9",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.844926"
+  },
+  {
+    "brand": "Signum",
+    "model": "Pro Poly Megaforce 17",
+    "material": "Polyester",
+    "gauge": "1.19",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 213.2lb/in, Loss: 36.3, Spin: 4.8",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.844948"
+  },
+  {
+    "brand": "Kirschbaum",
+    "model": "P2 17L",
+    "material": "Polyester",
+    "gauge": "1.20",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 197.2lb/in, Loss: 41.6, Spin: 4.8",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.844969"
+  },
+  {
+    "brand": "Weiss",
+    "model": "Cannon Turbotwist 17L",
+    "material": "Polyester",
+    "gauge": "1.18",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 203.5lb/in, Loss: 48.6, Spin: 4.8",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.844991"
+  },
+  {
+    "brand": "Signum",
+    "model": "Pro Firestorm 1.25",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 197.7lb/in, Loss: 46.4, Spin: 4.8",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.845012"
+  },
+  {
+    "brand": "Mantis",
+    "model": "Comfort Poly 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 224.6lb/in, Loss: 40.2, Spin: 4.8",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.845032"
+  },
+  {
+    "brand": "Yonex",
+    "model": "Poly Tour Spin G 1.25",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 237.2lb/in, Loss: 25.7, Spin: 4.8",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.845054"
+  },
+  {
+    "brand": "Gosen",
+    "model": "Polylon PolyBreak 18",
+    "material": "Polyester",
+    "gauge": "1.20",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 165.2lb/in, Loss: 53.3, Spin: 4.8",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.845074"
+  },
+  {
+    "brand": "Mantis",
+    "model": "Power Poly 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 203.5lb/in, Loss: 43.0, Spin: 4.8",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.845094"
+  },
+  {
+    "brand": "Kirschbaum",
+    "model": "Pro Line II 17L",
+    "material": "Polyester",
+    "gauge": "1.20",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 193.2lb/in, Loss: 46.0, Spin: 4.8",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.845115"
+  },
+  {
+    "brand": "Tecnifibre",
+    "model": "Ruff Code 16",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 207.5lb/in, Loss: 31.3, Spin: 4.8",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.845135"
+  },
+  {
+    "brand": "Signum",
+    "model": "Pro Tornado 17",
+    "material": "Polyester",
+    "gauge": "1.23",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 214.3lb/in, Loss: 44.3, Spin: 4.8",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.845157"
+  },
+  {
+    "brand": "Luxilon",
+    "model": "Big Banger Original 130/16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 213.2lb/in, Loss: 51.4, Spin: 4.8",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.845178"
+  },
+  {
+    "brand": "Head",
+    "model": "Sonic Pro Edge 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 194.9lb/in, Loss: 38.5, Spin: 4.8",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.845200"
+  },
+  {
+    "brand": "Kirschbaum",
+    "model": "Pro Line X 17",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 218.3lb/in, Loss: 37.0, Spin: 4.8",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.845222"
+  },
+  {
+    "brand": "Gamma",
+    "model": "RZR Rx 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 185.2lb/in, Loss: 28.7, Spin: 4.8",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.845243"
+  },
+  {
+    "brand": "Dunlop",
+    "model": "Explosive 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 233.2lb/in, Loss: 35.8, Spin: 4.8",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.845264"
+  },
+  {
+    "brand": "Wilson",
+    "model": "Enduro Tour 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 169.7lb/in, Loss: 62.4, Spin: 4.8",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.845285"
+  },
+  {
+    "brand": "Tecnifibre",
+    "model": "Pro Red Code 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 225.7lb/in, Loss: 36.4, Spin: 4.8",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.845306"
+  },
+  {
+    "brand": "Topspin",
+    "model": "Cyber Flash 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 185.2lb/in, Loss: 46.5, Spin: 4.8",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.845328"
+  },
+  {
+    "brand": "Poly",
+    "model": "Star Strike 16L",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 184.0lb/in, Loss: 51.4, Spin: 4.8",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.845349"
+  },
+  {
+    "brand": "Klip",
+    "model": "Hardcore 16/1.30",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 193.2lb/in, Loss: 49.8, Spin: 4.7",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.845370"
+  },
+  {
+    "brand": "Kirschbaum",
+    "model": "Pro Line II 17",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 201.2lb/in, Loss: 44.9, Spin: 4.7",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.845391"
+  },
+  {
+    "brand": "Weiss",
+    "model": "Cannon Black 5 Edge 17",
+    "material": "Polyester",
+    "gauge": "1.24",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 215.5lb/in, Loss: 32.8, Spin: 4.7",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.845412"
+  },
+  {
+    "brand": "Babolat",
+    "model": "Ballistic Polymono 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 217.7lb/in, Loss: 45.9, Spin: 4.7",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.845434"
+  },
+  {
+    "brand": "Head",
+    "model": "Hawk 17",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 204.6lb/in, Loss: 32.9, Spin: 4.7",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.845457"
+  },
+  {
+    "brand": "Gamma",
+    "model": "Zo Twist 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 190.3lb/in, Loss: 46.3, Spin: 4.7",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.845478"
+  },
+  {
+    "brand": "Babolat",
+    "model": "Hurricane Feel 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 249.7lb/in, Loss: 30.7, Spin: 4.7",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.845504"
+  },
+  {
+    "brand": "Gosen",
+    "model": "Polymaster I 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 186.9lb/in, Loss: 51.8, Spin: 4.7",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.845527"
+  },
+  {
+    "brand": "Signum",
+    "model": "Pro Poly-Plasma 16L",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 225.7lb/in, Loss: 39.2, Spin: 4.7",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.845552"
+  },
+  {
+    "brand": "IsoSpeed",
+    "model": "Pulse 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 164.6lb/in, Loss: 56.9, Spin: 4.7",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.845575"
+  },
+  {
+    "brand": "Pacific",
+    "model": "X Force 18",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 208.6lb/in, Loss: 37.0, Spin: 4.7",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.845599"
+  },
+  {
+    "brand": "Wilson",
+    "model": "Enduro Pro 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 219.5lb/in, Loss: 36.3, Spin: 4.7",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.845621"
+  },
+  {
+    "brand": "Polyfibre",
+    "model": "Hexablade 16L",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 172.0lb/in, Loss: 62.9, Spin: 4.6",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.845646"
+  },
+  {
+    "brand": "Babolat",
+    "model": "RPM Blast 17/1.25",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 233.7lb/in, Loss: 33.3, Spin: 4.6",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.845671"
+  },
+  {
+    "brand": "LaserFibre",
+    "model": "JB Tour 100 17g",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 210.9lb/in, Loss: 44.3, Spin: 4.6",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.845694"
+  },
+  {
+    "brand": "Tecnifibre",
+    "model": "Black Code 18",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 202.9lb/in, Loss: 40.7, Spin: 4.6",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.845717"
+  },
+  {
+    "brand": "Kirschbaum",
+    "model": "Long Life 15",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 231.5lb/in, Loss: 55.4, Spin: 4.6",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.845742"
+  },
+  {
+    "brand": "Babolat",
+    "model": "RPM Dual 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 237.2lb/in, Loss: 34.9, Spin: 4.6",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.845766"
+  },
+  {
+    "brand": "Topspin",
+    "model": "Cyber Flash 17L",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 144.0lb/in, Loss: 59.1, Spin: 4.6",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.845789"
+  },
+  {
+    "brand": "Gosen",
+    "model": "Polylon SP 17",
+    "material": "Polyester",
+    "gauge": "1.24",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 174.9lb/in, Loss: 52.2, Spin: 4.6",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.845817"
+  },
+  {
+    "brand": "Signum",
+    "model": "Pro Hyperion 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 220.0lb/in, Loss: 40.9, Spin: 4.6",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.845844"
+  },
+  {
+    "brand": "Yonex",
+    "model": "Poly Tour Strike 16L",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 199.5lb/in, Loss: 27.9, Spin: 4.6",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.845869"
+  },
+  {
+    "brand": "Gosen",
+    "model": "Sidewinder 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 159.4lb/in, Loss: 46.7, Spin: 4.6",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.845891"
+  },
+  {
+    "brand": "Luxilon",
+    "model": "Monotec Zolo 15L",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 219.5lb/in, Loss: 47.0, Spin: 4.6",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.845915"
+  },
+  {
+    "brand": "Pacific",
+    "model": "X Force 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 225.7lb/in, Loss: 36.2, Spin: 4.5",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.845938"
+  },
+  {
+    "brand": "Dunlop",
+    "model": "Comfort Poly 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 236.6lb/in, Loss: 42.1, Spin: 4.5",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.845962"
+  },
+  {
+    "brand": "Tourna",
+    "model": "Big Hitter Silver Rough 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 206.3lb/in, Loss: 45.0, Spin: 4.5",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.845986"
+  },
+  {
+    "brand": "Pacific",
+    "model": "Poly Force 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 233.2lb/in, Loss: 36.7, Spin: 4.5",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.846009"
+  },
+  {
+    "brand": "Babolat",
+    "model": "RPM Blast 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 232.6lb/in, Loss: 45.9, Spin: 4.5",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.846033"
+  },
+  {
+    "brand": "Head",
+    "model": "Ultra Tour 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 201.7lb/in, Loss: 45.1, Spin: 4.5",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.846058"
+  },
+  {
+    "brand": "Pacific",
+    "model": "Poly Force 16L",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 208.0lb/in, Loss: 45.7, Spin: 4.5",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.846081"
+  },
+  {
+    "brand": "Kirschbaum",
+    "model": "Competition 17",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 210.3lb/in, Loss: 47.5, Spin: 4.5",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.846105"
+  },
+  {
+    "brand": "Alien",
+    "model": "Black Diamond 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 190.3lb/in, Loss: 50.7, Spin: 4.5",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.846130"
+  },
+  {
+    "brand": "Kirschbaum",
+    "model": "Pro Line II 18",
+    "material": "Polyester",
+    "gauge": "1.15",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 182.9lb/in, Loss: 46.4, Spin: 4.5",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.846156"
+  },
+  {
+    "brand": "MSV",
+    "model": "Focus Evo 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 206.9lb/in, Loss: 46.1, Spin: 4.5",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.846180"
+  },
+  {
+    "brand": "Pacific",
+    "model": "X Force 16L",
+    "material": "Polyester",
+    "gauge": "1.29",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 219.5lb/in, Loss: 25.0, Spin: 4.4",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.846204"
+  },
+  {
+    "brand": "Polyfibre",
+    "model": "Hightec Premium 16L",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 170.3lb/in, Loss: 59.8, Spin: 4.4",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.846228"
+  },
+  {
+    "brand": "Prince",
+    "model": "Poly EXP 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 217.7lb/in, Loss: 43.7, Spin: 4.4",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.846252"
+  },
+  {
+    "brand": "Poly",
+    "model": "Star Classic 16L",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 174.9lb/in, Loss: 54.5, Spin: 4.4",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.846275"
+  },
+  {
+    "brand": "Solinco",
+    "model": "Barb Wire 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 214.3lb/in, Loss: 40.2, Spin: 4.4",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.846298"
+  },
+  {
+    "brand": "Luxilon",
+    "model": "Big Banger TiMO 17L",
+    "material": "Polyester",
+    "gauge": "1.17",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 204.0lb/in, Loss: 45.9, Spin: 4.4",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.846322"
+  },
+  {
+    "brand": "Babolat",
+    "model": "Hurricane Feel 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 239.5lb/in, Loss: 31.9, Spin: 4.4",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.846346"
+  },
+  {
+    "brand": "Polyfibre",
+    "model": "TCS 16/1.30",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 173.2lb/in, Loss: 59.6, Spin: 4.4",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.846368"
+  },
+  {
+    "brand": "Polyfibre",
+    "model": "Poly Hightec 16L",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 169.2lb/in, Loss: 61.4, Spin: 4.4",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.846391"
+  },
+  {
+    "brand": "Kirschbaum",
+    "model": "Pro Line I 18L",
+    "material": "Polyester",
+    "gauge": "1.15",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 189.2lb/in, Loss: 50.4, Spin: 4.4",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.846414"
+  },
+  {
+    "brand": "Kirschbaum",
+    "model": "Pro Line I 1.30",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 224.6lb/in, Loss: 47.8, Spin: 4.4",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.846437"
+  },
+  {
+    "brand": "Luxilon",
+    "model": "Big Banger Rough 130/16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 212.6lb/in, Loss: 52.0, Spin: 4.4",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.846461"
+  },
+  {
+    "brand": "Luxilon",
+    "model": "Big Banger ALU Power Spin 127/16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 213.7lb/in, Loss: 45.0, Spin: 4.3",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.846484"
+  },
+  {
+    "brand": "Polyfibre",
+    "model": "TCS Rapid 16L/1.25",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 160.0lb/in, Loss: 64.3, Spin: 4.3",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.846507"
+  },
+  {
+    "brand": "Gosen",
+    "model": "Polylon 17",
+    "material": "Polyester",
+    "gauge": "1.24",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 208.0lb/in, Loss: 48.8, Spin: 4.3",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.846530"
+  },
+  {
+    "brand": "Signum",
+    "model": "Pro Poly Speed Spin 1.28",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 246.3lb/in, Loss: 40.9, Spin: 4.3",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.846553"
+  },
+  {
+    "brand": "Solinco",
+    "model": "Tour Bite Diamond Rough 17",
+    "material": "Polyester",
+    "gauge": "1.20",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 181.7lb/in, Loss: 43.5, Spin: 4.3",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.846576"
+  },
+  {
+    "brand": "L-Tec",
+    "model": "Premium Pro OS 16L",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 253.7lb/in, Loss: 26.4, Spin: 4.3",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.846600"
+  },
+  {
+    "brand": "Polyfibre",
+    "model": "Black Venom 16",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 180.0lb/in, Loss: 56.9, Spin: 4.3",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.846624"
+  },
+  {
+    "brand": "Signum",
+    "model": "Pro Poly Megaforce 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 234.9lb/in, Loss: 34.9, Spin: 4.3",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.846652"
+  },
+  {
+    "brand": "Topspin",
+    "model": "Cyber Flash 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 158.9lb/in, Loss: 54.9, Spin: 4.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.846677"
+  },
+  {
+    "brand": "Poly",
+    "model": "Star Classic 16",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 185.7lb/in, Loss: 55.8, Spin: 4.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.846701"
+  },
+  {
+    "brand": "Polyfibre",
+    "model": "Hightec Premium 16/1.30",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 174.3lb/in, Loss: 57.6, Spin: 4.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.846725"
+  },
+  {
+    "brand": "Yonex",
+    "model": "Poly Tour Air 16L",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 154.9lb/in, Loss: 41.0, Spin: 4.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.846750"
+  },
+  {
+    "brand": "Head",
+    "model": "Sonic Pro 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 160.6lb/in, Loss: 57.0, Spin: 4.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.846775"
+  },
+  {
+    "brand": "Signum",
+    "model": "Pro Hyperion 17",
+    "material": "Polyester",
+    "gauge": "1.24",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 202.3lb/in, Loss: 42.6, Spin: 4.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.846802"
+  },
+  {
+    "brand": "Tecnifibre",
+    "model": "Razor Code 16",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 242.9lb/in, Loss: 32.7, Spin: 4.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.846826"
+  },
+  {
+    "brand": "MSV",
+    "model": "Co.-Focus 16L",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 184.6lb/in, Loss: 49.7, Spin: 4.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.846850"
+  },
+  {
+    "brand": "Wilson",
+    "model": "Spin Cycle 16L",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 205.7lb/in, Loss: 38.7, Spin: 4.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.846873"
+  },
+  {
+    "brand": "Weiss",
+    "model": "Cannon Scorpion 1.33",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 222.9lb/in, Loss: 47.8, Spin: 4.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.846897"
+  },
+  {
+    "brand": "Luxilon",
+    "model": "4G Rough 16L",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 216.0lb/in, Loss: 32.8, Spin: 4.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.846920"
+  },
+  {
+    "brand": "Gamma",
+    "model": "Zo Ice 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 223.5lb/in, Loss: 37.8, Spin: 4.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.846943"
+  },
+  {
+    "brand": "Weiss",
+    "model": "Cannon Turbotwist 17",
+    "material": "Polyester",
+    "gauge": "1.24",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 216.6lb/in, Loss: 49.5, Spin: 4.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.846966"
+  },
+  {
+    "brand": "Tecnifibre",
+    "model": "Black Code 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 236.0lb/in, Loss: 40.2, Spin: 4.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.846990"
+  },
+  {
+    "brand": "Gosen",
+    "model": "Polylon PolyBreak 17",
+    "material": "Polyester",
+    "gauge": "1.24",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 195.5lb/in, Loss: 48.9, Spin: 4.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.847014"
+  },
+  {
+    "brand": "Polyfibre",
+    "model": "TCS 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 158.9lb/in, Loss: 63.4, Spin: 4.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.847038"
+  },
+  {
+    "brand": "Gamma",
+    "model": "Zo Magic 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 248.0lb/in, Loss: 33.7, Spin: 4.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.847062"
+  },
+  {
+    "brand": "Kirschbaum",
+    "model": "Pro Line I 17",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 204.6lb/in, Loss: 50.8, Spin: 4.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.847084"
+  },
+  {
+    "brand": "Gosen",
+    "model": "Polylon 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 206.9lb/in, Loss: 50.9, Spin: 4.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.847107"
+  },
+  {
+    "brand": "Klip",
+    "model": "K-Boom 16/1.30",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 237.2lb/in, Loss: 34.0, Spin: 4.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.847130"
+  },
+  {
+    "brand": "Kirschbaum",
+    "model": "Competition 17L",
+    "material": "Polyester",
+    "gauge": "1.20",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 190.3lb/in, Loss: 45.0, Spin: 4.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.847154"
+  },
+  {
+    "brand": "Polyfibre",
+    "model": "Poly Hightec 16/1.30",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 173.2lb/in, Loss: 57.8, Spin: 4.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.847177"
+  },
+  {
+    "brand": "Head",
+    "model": "Ultratour 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 207.5lb/in, Loss: 44.9, Spin: 4.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.847199"
+  },
+  {
+    "brand": "Tourna",
+    "model": "Big Hitter Silver Rough 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 197.2lb/in, Loss: 42.1, Spin: 4.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.847223"
+  },
+  {
+    "brand": "L-Tec",
+    "model": "Premium OS 17",
+    "material": "Polyester",
+    "gauge": "1.23",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 224.0lb/in, Loss: 28.8, Spin: 4.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.847247"
+  },
+  {
+    "brand": "Luxilon",
+    "model": "Big Banger XP 125/16L",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 209.2lb/in, Loss: 49.0, Spin: 4.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.847269"
+  },
+  {
+    "brand": "Polyfibre",
+    "model": "Poly Hightec 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 157.7lb/in, Loss: 63.0, Spin: 4.0",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.847292"
+  },
+  {
+    "brand": "Luxilon",
+    "model": "Big Banger Ace 18",
+    "material": "Polyester",
+    "gauge": "1.12",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 203.5lb/in, Loss: 46.1, Spin: 4.0",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.847322"
+  },
+  {
+    "brand": "L-Tec",
+    "model": "Premium 5S 16L",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 210.3lb/in, Loss: 36.8, Spin: 4.0",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.847347"
+  },
+  {
+    "brand": "Gosen",
+    "model": "Polylon SP 16",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 184.6lb/in, Loss: 52.5, Spin: 4.0",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.847371"
+  },
+  {
+    "brand": "L-Tec",
+    "model": "Premium 3S 16L",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 220.0lb/in, Loss: 35.6, Spin: 4.0",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.847395"
+  },
+  {
+    "brand": "Gamma",
+    "model": "Zo Black Ice 18",
+    "material": "Polyester",
+    "gauge": "1.18",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 199.5lb/in, Loss: 39.6, Spin: 4.0",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.847420"
+  },
+  {
+    "brand": "Poly",
+    "model": "Star Energy 17",
+    "material": "Polyester",
+    "gauge": "1.20",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 165.2lb/in, Loss: 63.6, Spin: 4.0",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.847444"
+  },
+  {
+    "brand": "Poly",
+    "model": "Star Classic 17",
+    "material": "Polyester",
+    "gauge": "1.20",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 166.9lb/in, Loss: 61.6, Spin: 4.0",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.847467"
+  },
+  {
+    "brand": "Weiss",
+    "model": "Cannon Scorpion 1.22",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 192.6lb/in, Loss: 44.2, Spin: 4.0",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.847491"
+  },
+  {
+    "brand": "Poly",
+    "model": "Star Energy 16",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 173.2lb/in, Loss: 66.3, Spin: 4.0",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.847516"
+  },
+  {
+    "brand": "Babolat",
+    "model": "RPM Team 16 Black",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 280.6lb/in, Loss: 22.0, Spin: 3.9",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.847541"
+  },
+  {
+    "brand": "Dunlop",
+    "model": "Juice 17",
+    "material": "Polyester",
+    "gauge": "1.26",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 208.6lb/in, Loss: 45.8, Spin: 3.9",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.847567"
+  },
+  {
+    "brand": "Head",
+    "model": "Sonic Pro 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 164.6lb/in, Loss: 54.9, Spin: 3.9",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.847591"
+  },
+  {
+    "brand": "Ashaway",
+    "model": "MonoGut 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 188.6lb/in, Loss: 50.9, Spin: 3.9",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.847613"
+  },
+  {
+    "brand": "Polyfibre",
+    "model": "Poly Hightec 18",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 150.3lb/in, Loss: 61.0, Spin: 3.9",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.847636"
+  },
+  {
+    "brand": "Leopard",
+    "model": "Plus Control 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 225.7lb/in, Loss: 40.0, Spin: 3.9",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.847659"
+  },
+  {
+    "brand": "Polyfibre",
+    "model": "Viper 17/1.20",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 157.7lb/in, Loss: 64.3, Spin: 3.9",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.847683"
+  },
+  {
+    "brand": "Kirschbaum",
+    "model": "Pro Line I 17L",
+    "material": "Polyester",
+    "gauge": "1.20",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 194.9lb/in, Loss: 52.2, Spin: 3.9",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.847706"
+  },
+  {
+    "brand": "Polyfibre",
+    "model": "Hightec Premium 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 157.7lb/in, Loss: 61.9, Spin: 3.9",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.847730"
+  },
+  {
+    "brand": "Gamma",
+    "model": "RZR Rx 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 196.0lb/in, Loss: 27.3, Spin: 3.9",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.847753"
+  },
+  {
+    "brand": "Prince",
+    "model": "Beast XP 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 198.9lb/in, Loss: 41.7, Spin: 3.9",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.847777"
+  },
+  {
+    "brand": "Luxilon",
+    "model": "4G 16L",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 258.9lb/in, Loss: 21.3, Spin: 3.9",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.847804"
+  },
+  {
+    "brand": "Luxilon",
+    "model": "Big Banger Timo 17",
+    "material": "Polyester",
+    "gauge": "1.22",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 206.9lb/in, Loss: 44.3, Spin: 3.9",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.847829"
+  },
+  {
+    "brand": "Gamma",
+    "model": "Monoblast 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 220.6lb/in, Loss: 42.5, Spin: 3.8",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.847854"
+  },
+  {
+    "brand": "Weiss",
+    "model": "Cannon Silverstring 1.25",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 195.5lb/in, Loss: 43.8, Spin: 3.8",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.847877"
+  },
+  {
+    "brand": "Gosen",
+    "model": "Sidewinder 16",
+    "material": "Polyester",
+    "gauge": "1.31",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 163.4lb/in, Loss: 46.7, Spin: 3.8",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.847902"
+  },
+  {
+    "brand": "Polyfibre",
+    "model": "TCS 16L",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 166.9lb/in, Loss: 62.1, Spin: 3.8",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.847925"
+  },
+  {
+    "brand": "Tecnifibre",
+    "model": "Polyspin 16L",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 226.9lb/in, Loss: 36.3, Spin: 3.8",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.847949"
+  },
+  {
+    "brand": "Gamma",
+    "model": "Zo Black Ice 17",
+    "material": "Polyester",
+    "gauge": "1.23",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 211.5lb/in, Loss: 41.2, Spin: 3.7",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.847974"
+  },
+  {
+    "brand": "Poly",
+    "model": "Star Energy 16L",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 169.7lb/in, Loss: 68.0, Spin: 3.7",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.847999"
+  },
+  {
+    "brand": "Weiss",
+    "model": "Cannon Silverstring 120",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 167.4lb/in, Loss: 50.6, Spin: 3.7",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.848022"
+  },
+  {
+    "brand": "Gamma",
+    "model": "Zo Tour 17",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 204.0lb/in, Loss: 50.3, Spin: 3.7",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.848046"
+  },
+  {
+    "brand": "Prince",
+    "model": "Twisted 16L",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 230.3lb/in, Loss: 43.5, Spin: 3.7",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.848070"
+  },
+  {
+    "brand": "Weiss",
+    "model": "Cannon MatchPower 1.25",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 218.3lb/in, Loss: 38.4, Spin: 3.6",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.848093"
+  },
+  {
+    "brand": "Dunlop",
+    "model": "Juice 16",
+    "material": "Polyester",
+    "gauge": "1.31",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 215.5lb/in, Loss: 48.4, Spin: 3.6",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.848117"
+  },
+  {
+    "brand": "Luxilon",
+    "model": "Adrenaline 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 212.6lb/in, Loss: 45.3, Spin: 3.6",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.848139"
+  },
+  {
+    "brand": "Luxilon",
+    "model": "Big Banger XP 15L",
+    "material": "Polyester",
+    "gauge": "1.38",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 236.6lb/in, Loss: 48.0, Spin: 3.6",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.848162"
+  },
+  {
+    "brand": "Luxilon",
+    "model": "M2 Pro 125/16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 181.7lb/in, Loss: 53.0, Spin: 3.6",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.848186"
+  },
+  {
+    "brand": "Polyfibre",
+    "model": "Cobra 17/1.20",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 154.3lb/in, Loss: 63.7, Spin: 3.6",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.848209"
+  },
+  {
+    "brand": "Luxilon",
+    "model": "Big Banger Timo 18",
+    "material": "Polyester",
+    "gauge": "1.10",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 189.2lb/in, Loss: 45.4, Spin: 3.6",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.848233"
+  },
+  {
+    "brand": "Luxilon",
+    "model": "Adrenaline 16L/1.25",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 202.9lb/in, Loss: 44.3, Spin: 3.5",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.848257"
+  },
+  {
+    "brand": "Ashaway",
+    "model": "MonoGut 16L",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 202.9lb/in, Loss: 47.0, Spin: 3.5",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.848279"
+  },
+  {
+    "brand": "Prince",
+    "model": "Tour 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 198.9lb/in, Loss: 55.6, Spin: 3.4",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.848303"
+  },
+  {
+    "brand": "Luxilon",
+    "model": "Savage 16/1.27",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 234.3lb/in, Loss: 46.2, Spin: 3.4",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.848327"
+  },
+  {
+    "brand": "SuperString",
+    "model": "Nikita Original 1.25",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 198.9lb/in, Loss: 42.9, Spin: 3.4",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.848350"
+  },
+  {
+    "brand": "Tourna",
+    "model": "Big Hitter Blue Rough 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 222.3lb/in, Loss: 40.5, Spin: 3.4",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.848373"
+  },
+  {
+    "brand": "Yonex",
+    "model": "Poly Tour Pro Yellow 16",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 191.5lb/in, Loss: 44.5, Spin: 3.4",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.848399"
+  },
+  {
+    "brand": "Luxilon",
+    "model": "Adrenaline Rough 16L/1.25",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 202.9lb/in, Loss: 44.8, Spin: 3.3",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.848423"
+  },
+  {
+    "brand": "Babolat",
+    "model": "Pro Hurricane 18",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 185.2lb/in, Loss: 37.2, Spin: 3.3",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.848447"
+  },
+  {
+    "brand": "Luxilon",
+    "model": "Monotec Super Poly 1.25/16L",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 233.2lb/in, Loss: 44.1, Spin: 3.3",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.848471"
+  },
+  {
+    "brand": "Prince",
+    "model": "Poly Spin 3D",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 178.9lb/in, Loss: 60.2, Spin: 3.3",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.848494"
+  },
+  {
+    "brand": "IsoSpeed",
+    "model": "Axon Mono 16L",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 199.5lb/in, Loss: 34.4, Spin: 3.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.848518"
+  },
+  {
+    "brand": "Tourna",
+    "model": "Big Hitter Blue Rough 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 209.7lb/in, Loss: 43.8, Spin: 3.2",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.848542"
+  },
+  {
+    "brand": "Babolat",
+    "model": "Pro Hurricane 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 192.6lb/in, Loss: 42.0, Spin: 3.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.848565"
+  },
+  {
+    "brand": "Prince",
+    "model": "Tour 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 214.9lb/in, Loss: 53.0, Spin: 3.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.848589"
+  },
+  {
+    "brand": "Gamma",
+    "model": "Zo Power 16L",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 193.2lb/in, Loss: 56.7, Spin: 2.9",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.848613"
+  },
+  {
+    "brand": "Luxilon",
+    "model": "Adrenaline 17/1.20",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 208.0lb/in, Loss: 41.8, Spin: 2.9",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.848637"
+  },
+  {
+    "brand": "Luxilon",
+    "model": "Monotec Supersense 16L/1.25",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 209.7lb/in, Loss: 47.7, Spin: 2.1",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.848660"
+  },
+  {
+    "brand": "Tecnifibre",
+    "model": "X-Code 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 188.0lb/in, Loss: 37.9, Spin: 2.0",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.848684"
+  },
+  {
+    "brand": "Prince",
+    "model": "Tournament Poly 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 215.5lb/in, Loss: 45.9, Spin: 0.0",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.848708"
+  },
+  {
+    "brand": "MSV",
+    "model": "Hepta-Twist 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 188.6lb/in, Loss: 51.3, Spin: 0.0",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.848731"
+  },
+  {
+    "brand": "SuperString",
+    "model": "Nikita Soft 16L",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 182.9lb/in, Loss: 49.2, Spin: 0.0",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.848754"
+  },
+  {
+    "brand": "Volkl",
+    "model": "V-Star 18",
+    "material": "Polyester",
+    "gauge": "1.20",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 163.4lb/in, Loss: 50.7, Spin: 0.0",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.848777"
+  },
+  {
+    "brand": "Tourna",
+    "model": "Big Hitter 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 225.7lb/in, Loss: 39.8, Spin: NA",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.848804"
+  },
+  {
+    "brand": "One",
+    "model": "Strings Carbon Tour 17",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 229.2lb/in, Loss: 25.4, Spin: NA",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.848829"
+  },
+  {
+    "brand": "IsoSpeed",
+    "model": "Cream 17",
+    "material": "Polyester",
+    "gauge": "1.28",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 177.7lb/in, Loss: 28.1, Spin: NA",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.848850"
+  },
+  {
+    "brand": "IsoSpeed",
+    "model": "Pulse 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 159.4lb/in, Loss: 55.6, Spin: NA",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.848871"
+  },
+  {
+    "brand": "Prince",
+    "model": "Diablo Prism 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 229.2lb/in, Loss: 35.9, Spin: NA",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.848895"
+  },
+  {
+    "brand": "Polyfibre",
+    "model": "TCS 18",
+    "material": "Polyester",
+    "gauge": "1.15",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 156.0lb/in, Loss: 61.1, Spin: NA",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.848918"
+  },
+  {
+    "brand": "Diadem",
+    "model": "Solstice Pro 16L",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 190.3lb/in, Loss: 29.3, Spin: NA",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.848941"
+  },
+  {
+    "brand": "Boris",
+    "model": "Becker Bomber 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 182.3lb/in, Loss: 48.4, Spin: NA",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.848964"
+  },
+  {
+    "brand": "Wilson",
+    "model": "Enduro Gold 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 213.7lb/in, Loss: 47.1, Spin: NA",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.848986"
+  },
+  {
+    "brand": "Luxilon",
+    "model": "4G S 15",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 314.3lb/in, Loss: 23.5, Spin: NA",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.849009"
+  },
+  {
+    "brand": "Super",
+    "model": "String Tour Players V3 17",
+    "material": "Polyester",
+    "gauge": "1.20",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 197.7lb/in, Loss: 45.0, Spin: NA",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.849032"
+  },
+  {
+    "brand": "Dunlop",
+    "model": "Explosive Bite 17",
+    "material": "Polyester",
+    "gauge": "1.27",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 201.7lb/in, Loss: 28.3, Spin: NA",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.849057"
+  },
+  {
+    "brand": "Yonex",
+    "model": "PolyTour REV 16",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 208.6lb/in, Loss: 33.3, Spin: NA",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.849081"
+  },
+  {
+    "brand": "Luxilon",
+    "model": "Monotec Zolo 125/16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 213.2lb/in, Loss: 48.3, Spin: NA",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.849103"
+  },
+  {
+    "brand": "Luxilon",
+    "model": "LXN Smart 16",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 208.6lb/in, Loss: 45.9, Spin: NA",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.849126"
+  },
+  {
+    "brand": "Polyfibre",
+    "model": "Black Venom 16L",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 170.3lb/in, Loss: 60.4, Spin: NA",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.849150"
+  },
+  {
+    "brand": "Luxilon",
+    "model": "M2 Plus 130/16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 202.9lb/in, Loss: 52.0, Spin: NA",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.849172"
+  },
+  {
+    "brand": "Luxilon",
+    "model": "Big Banger ALU Power Fluoro 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 206.9lb/in, Loss: 44.8, Spin: NA",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.849195"
+  },
+  {
+    "brand": "Polyfibre",
+    "model": "Viper 16L/1.25",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 170.3lb/in, Loss: 60.1, Spin: NA",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.849218"
+  },
+  {
+    "brand": "Luxilon",
+    "model": "4G 16",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 286.9lb/in, Loss: 23.5, Spin: NA",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.849241"
+  },
+  {
+    "brand": "Wilson",
+    "model": "Enduro Tour 18",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 159.4lb/in, Loss: 63.7, Spin: NA",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.849264"
+  },
+  {
+    "brand": "Babolat",
+    "model": "Revenge 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 222.3lb/in, Loss: 48.7, Spin: NA",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.849287"
+  },
+  {
+    "brand": "Dunlop",
+    "model": "Explosive Tour 16",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 200.6lb/in, Loss: 48.2, Spin: NA",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.849309"
+  },
+  {
+    "brand": "Yonex",
+    "model": "Poly Tour Pro Yellow 16L",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 181.2lb/in, Loss: 46.3, Spin: NA",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.849333"
+  },
+  {
+    "brand": "SuperString",
+    "model": "Pure Control V8 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 162.9lb/in, Loss: 50.3, Spin: NA",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.849356"
+  },
+  {
+    "brand": "Babolat",
+    "model": "Duralast 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 219.5lb/in, Loss: 43.0, Spin: NA",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.849380"
+  },
+  {
+    "brand": "Kirschbaum",
+    "model": "Flash 16",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 192.6lb/in, Loss: 36.7, Spin: NA",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.849404"
+  },
+  {
+    "brand": "Babolat",
+    "model": "Pro Hurricane 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 204.0lb/in, Loss: 39.6, Spin: NA",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.849426"
+  },
+  {
+    "brand": "Tecnifibre",
+    "model": "Black Code 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 249.7lb/in, Loss: 37.3, Spin: NA",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.849450"
+  },
+  {
+    "brand": "Prince",
+    "model": "Tournament Poly 17",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 209.2lb/in, Loss: 51.0, Spin: NA",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.849473"
+  },
+  {
+    "brand": "Signum",
+    "model": "Pro Poly-Plasma Pure 17L",
+    "material": "Polyester",
+    "gauge": "1.18",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 196.0lb/in, Loss: 44.3, Spin: NA",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.849495"
+  },
+  {
+    "brand": "Tourna",
+    "model": "Big Hitter Blue 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 226.3lb/in, Loss: 37.3, Spin: NA",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.849519"
+  },
+  {
+    "brand": "Wilson",
+    "model": "Enduro Mono 16L",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 230.3lb/in, Loss: 41.5, Spin: NA",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.849541"
+  },
+  {
+    "brand": "Yonex",
+    "model": "Poly Tour 130/16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 217.7lb/in, Loss: 49.1, Spin: NA",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.849564"
+  },
+  {
+    "brand": "Babolat",
+    "model": "Duralast 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 207.5lb/in, Loss: 48.5, Spin: NA",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.849586"
+  },
+  {
+    "brand": "Dunlop",
+    "model": "Explosive Speed 17",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 249.7lb/in, Loss: 17.6, Spin: NA",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.849609"
+  },
+  {
+    "brand": "Tourna",
+    "model": "Big Hitter Silver 7 Tour 16",
+    "material": "Polyester",
+    "gauge": "1.30",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 238.3lb/in, Loss: 18.7, Spin: NA",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.849634"
+  },
+  {
+    "brand": "Tecnifibre",
+    "model": "Ruff Code 17",
+    "material": "Polyester",
+    "gauge": "1.25",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 207.5lb/in, Loss: 28.7, Spin: NA",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.849658"
+  },
+  {
+    "brand": "Babolat",
+    "model": "Revenge 16",
+    "material": "Polyester",
+    "gauge": null,
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 276.0lb/in, Loss: 37.7, Spin: NA",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.849680"
+  },
+  {
+    "brand": "Diadem",
+    "model": "Solstice Blace 17",
+    "material": "Polyester",
+    "gauge": "1.20",
+    "color": null,
+    "notes": "Ref.Tension: 51, Swing: Fast, Stiffness: 161.7lb/in, Loss: 52.7, Spin: NA",
+    "scraped_from": "tennis-warehouse.com",
+    "scraped_at": "2025-07-21T16:27:23.849704"
+  }
+]
