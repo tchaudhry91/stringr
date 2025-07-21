@@ -3,13 +3,13 @@ import { StyleSheet } from 'react-native';
 import EditScreenInfo from '@/components/EditScreenInfo';
 import { Text, View } from '@/components/Themed';
 
-export default function RacquetsScreen() {
+export default function StringJobsScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>My Racquets</Text>
+      <Text style={styles.title}>String Jobs</Text>
       <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
-      <Text style={styles.subtitle}>Track your tennis racquets and their string jobs</Text>
-      <EditScreenInfo path="app/(tabs)/index.tsx" />
+      <Text style={styles.subtitle}>Recent string jobs and history</Text>
+      <EditScreenInfo path="app/(tabs)/jobs.tsx" />
     </View>
   );
 }
