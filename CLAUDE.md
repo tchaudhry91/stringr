@@ -28,18 +28,34 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 **Project Setup:**
 ```bash
+# Install task runner first: https://taskfile.dev
 cd stringr
+task install       # Install all dependencies
+task dev           # Start both frontend and backend
+task dev:ui        # Start only React Native web server
+task dev:backend   # Start only PocketBase server
+```
+
+**Legacy Commands (still work):**
+```bash
+cd stringr         # Frontend directory
 npm start          # Start Expo dev server
-npm run android    # Run on Android device/emulator
-npm run ios        # Run on iOS device/simulator
 npm run web        # Run in web browser
 npm test           # Run Jest tests
+```
+
+**PocketBase Backend:**
+```bash
+cd backend
+./pocketbase serve --dev --dir ~/.stringr  # Manual start
+task backend:admin # Create admin user
 ```
 
 **Git Workflow:**
 - Use `npm` for package management
 - Commit frequently at logical stopping points
 - Push to remote after major milestones
+- All PocketBase data stored in ~/.stringr (outside repo)
 
 ## Technology Stack
 
@@ -64,12 +80,36 @@ npm test           # Run Jest tests
 - StringJobs (racquet_id, string_id, tensions, date, notes)
 
 **Development Phases:**
-1. ✅ Project setup and foundation
-2. 🔄 Navigation and basic screens
-3. 📋 PocketBase backend setup
-4. 📱 Core CRUD functionality
-5. 📸 Media/photo features
-6. 🔊 Audio processing foundation
+1. ✅ Project setup and foundation (COMPLETED)
+2. ✅ Navigation and basic screens (COMPLETED)
+3. ✅ PocketBase backend setup (COMPLETED)
+4. 🔄 Database schema and API integration (IN PROGRESS)
+5. 📱 Core CRUD functionality
+6. 📸 Media/photo features
+7. 🔊 Audio processing foundation
+
+## Current Project Status
+
+**✅ Completed (Phase 1-3):**
+- React Native/Expo project with TypeScript
+- 4-tab navigation: Racquets, String Jobs, Strings, Profile
+- PocketBase v0.23.6 backend server setup
+- Task-based development workflow (Taskfile.yml)
+- Comprehensive gitignore and project structure
+- Web testing available at http://localhost:8081
+- PocketBase admin at http://localhost:8090/_/ (when running)
+
+**🔄 Next Steps (Phase 4):**
+- Design and create PocketBase collections schema
+- Setup API client for React Native ↔ PocketBase communication
+- Implement authentication flow
+- Build CRUD screens for racquet management
+
+**📋 Pending Features (Phase 5-7):**
+- String job creation and history tracking
+- Photo/image support for racquets
+- Advanced filtering and search
+- Sound-based tension analysis (future)
 
 ## Expo Router Concepts
 
@@ -77,3 +117,21 @@ npm test           # Run Jest tests
 - **Route groups**: `(tabs)` - parentheses don't affect URL structure
 - **Layouts**: `_layout.tsx` files provide shared UI/logic
 - **Stack vs Tabs**: Stack = push/pop navigation, Tabs = bottom navigation
+
+## PocketBase Backend Details
+
+**Server Configuration:**
+- Data directory: `~/.stringr/pb_data/`
+- Admin interface: http://localhost:8090/_/
+- API endpoint: http://localhost:8090/api/
+- Development mode: Enabled with SQL logging
+
+**Default Collections:**
+- `users`: User authentication and profiles
+- `_superusers`: Admin users
+- System collections for auth, MFA, external auth
+
+**Planned Tennis Collections:**
+- `racquets`: Brand, model, specifications, photos
+- `strings`: String database with characteristics
+- `string_jobs`: Jobs linking racquets to strings with tensions/dates
