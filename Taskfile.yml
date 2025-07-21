@@ -10,7 +10,7 @@ tasks:
     desc: Install all dependencies
     cmds:
       - task: install:ui
-      - echo "✅ All dependencies installed"
+      - echo "All dependencies installed"
 
   install:ui:
     desc: Install React Native/Expo dependencies
@@ -32,13 +32,13 @@ tasks:
     desc: Start PocketBase backend server in development mode
     dir: "{{.BACKEND_DIR}}"
     cmds:
-      - ./pocketbase serve --dev --dir {{.POCKETBASE_DIR}} --host 0.0.0.0
+      - ./pocketbase serve --dev --dir {{.POCKETBASE_DIR}}
 
   backend:start:
     desc: Start PocketBase backend server
     dir: "{{.BACKEND_DIR}}"
     cmds:
-      - ./pocketbase serve --dir {{.POCKETBASE_DIR}} --host 0.0.0.0
+      - ./pocketbase serve --dir {{.POCKETBASE_DIR}}
 
   backend:admin:
     desc: Create PocketBase admin user
@@ -103,14 +103,14 @@ tasks:
       - rm -rf web-build
 
   clean:backend:
-    desc: Clean PocketBase data (WARNING: This will delete all data!)
+    desc: "Clean PocketBase data (WARNING: This will delete all data!)"
     cmds:
       - rm -rf {{.POCKETBASE_DIR}}/pb_data
-      - echo "⚠️  PocketBase data cleaned"
+      - echo "PocketBase data cleaned"
 
   setup:
     desc: Initial project setup
     cmds:
       - task: install
       - task: backend:admin
-      - echo "🚀 Project setup complete! Run 'task dev' to start development"
+      - echo "Project setup complete! Run 'task dev' to start development"
