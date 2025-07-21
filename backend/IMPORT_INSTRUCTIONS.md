@@ -14,7 +14,12 @@ This will create 3 collections:
 - `racquets` - User's tennis racquets  
 - `string_jobs` - String job history
 
-### Step 2: Verify Setup
+### Step 2: Update Security Rules (Optional)
+For better data isolation:
+1. Follow instructions in `backend/SECURITY_RULES.md`
+2. Update API rules for racquets and string_jobs collections
+
+### Step 3: Verify Setup
 1. Check that all 3 collections exist in the sidebar
 2. Test API endpoint: http://localhost:8090/api/collections/strings/records
 

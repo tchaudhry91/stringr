@@ -295,11 +295,11 @@
       }
     ],
     "indexes": [],
-    "listRule": "user = @request.auth.id",
-    "viewRule": "user = @request.auth.id",
-    "createRule": "user = @request.auth.id",
-    "updateRule": "user = @request.auth.id",
-    "deleteRule": "user = @request.auth.id",
+    "listRule": "@request.auth.id != \"\"",
+    "viewRule": "@request.auth.id != \"\"",
+    "createRule": "@request.auth.id != \"\"",
+    "updateRule": "@request.auth.id != \"\"",
+    "deleteRule": "@request.auth.id != \"\"",
     "options": {}
   },
   {
@@ -502,11 +502,11 @@
       }
     ],
     "indexes": [],
-    "listRule": "user = @request.auth.id",
-    "viewRule": "user = @request.auth.id", 
-    "createRule": "user = @request.auth.id && racquet.user = @request.auth.id",
-    "updateRule": "user = @request.auth.id",
-    "deleteRule": "user = @request.auth.id",
+    "listRule": "@request.auth.id != \"\"",
+    "viewRule": "@request.auth.id != \"\"", 
+    "createRule": "@request.auth.id != \"\"",
+    "updateRule": "@request.auth.id != \"\"",
+    "deleteRule": "@request.auth.id != \"\"",
     "options": {}
   }
 ]
