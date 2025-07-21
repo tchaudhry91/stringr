@@ -2,12 +2,13 @@
 
 # dependencies
 node_modules/
+stringr/node_modules/
 
-# Expo
-.expo/
-dist/
-web-build/
-expo-env.d.ts
+# Expo (Frontend)
+stringr/.expo/
+stringr/dist/
+stringr/web-build/
+stringr/expo-env.d.ts
 
 # Native
 .kotlin/
@@ -37,12 +38,18 @@ yarn-error.*
 # typescript
 *.tsbuildinfo
 
-# PocketBase
-pocketbase/
-pb_data/
-pb_migrations/
-*.db
-*.db-journal
+# PocketBase Backend
+backend/pocketbase
+backend/pb_data/
+backend/pb_migrations/
+backend/pb_public/
+backend/*.db
+backend/*.db-journal
+backend/CHANGELOG.md
+backend/LICENSE.md
+
+# User data directory
+.stringr/
 
 # IDE
 .vscode/
@@ -67,3 +74,8 @@ coverage/
 # Temporary folders
 tmp/
 temp/
+
+# Package locks (keep npm's, ignore others)
+yarn.lock
+bun.lockb
+pnpm-lock.yaml

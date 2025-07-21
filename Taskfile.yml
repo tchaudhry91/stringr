@@ -1,0 +1,116 @@
+version: '3'
+
+vars:
+  POCKETBASE_DIR: "~/.stringr"
+  BACKEND_DIR: "./backend"
+  UI_DIR: "./stringr"
+
+tasks:
+  install:
+    desc: Install all dependencies
+    cmds:
+      - task: install:ui
+      - echo "✅ All dependencies installed"
+
+  install:ui:
+    desc: Install React Native/Expo dependencies
+    dir: "{{.UI_DIR}}"
+    cmds:
+      - npm install
+
+  dev:
+    desc: Start both frontend and backend in development mode
+    deps: [dev:backend, dev:ui]
+
+  dev:ui:
+    desc: Start React Native web development server
+    dir: "{{.UI_DIR}}"
+    cmds:
+      - npm run web
+
+  dev:backend:
+    desc: Start PocketBase backend server in development mode
+    dir: "{{.BACKEND_DIR}}"
+    cmds:
+      - ./pocketbase serve --dev --dir {{.POCKETBASE_DIR}} --host 0.0.0.0
+
+  backend:start:
+    desc: Start PocketBase backend server
+    dir: "{{.BACKEND_DIR}}"
+    cmds:
+      - ./pocketbase serve --dir {{.POCKETBASE_DIR}} --host 0.0.0.0
+
+  backend:admin:
+    desc: Create PocketBase admin user
+    dir: "{{.BACKEND_DIR}}"
+    cmds:
+      - ./pocketbase superuser create --dir {{.POCKETBASE_DIR}}
+
+  backend:migrate:
+    desc: Run PocketBase migrations
+    dir: "{{.BACKEND_DIR}}"
+    cmds:
+      - ./pocketbase migrate --dir {{.POCKETBASE_DIR}}
+
+  ui:web:
+    desc: Start React Native web development server
+    dir: "{{.UI_DIR}}"
+    cmds:
+      - npm run web
+
+  ui:ios:
+    desc: Start React Native iOS development
+    dir: "{{.UI_DIR}}"
+    cmds:
+      - npm run ios
+
+  ui:android:
+    desc: Start React Native Android development
+    dir: "{{.UI_DIR}}"
+    cmds:
+      - npm run android
+
+  ui:test:
+    desc: Run React Native tests
+    dir: "{{.UI_DIR}}"
+    cmds:
+      - npm test
+
+  build:
+    desc: Build the application
+    cmds:
+      - task: build:ui
+
+  build:ui:
+    desc: Build React Native application
+    dir: "{{.UI_DIR}}"
+    cmds:
+      - npm run build
+
+  clean:
+    desc: Clean all build artifacts and dependencies
+    cmds:
+      - task: clean:ui
+      - task: clean:backend
+
+  clean:ui:
+    desc: Clean React Native build artifacts
+    dir: "{{.UI_DIR}}"
+    cmds:
+      - rm -rf node_modules
+      - rm -rf .expo
+      - rm -rf dist
+      - rm -rf web-build
+
+  clean:backend:
+    desc: Clean PocketBase data (WARNING: This will delete all data!)
+    cmds:
+      - rm -rf {{.POCKETBASE_DIR}}/pb_data
+      - echo "⚠️  PocketBase data cleaned"
+
+  setup:
+    desc: Initial project setup
+    cmds:
+      - task: install
+      - task: backend:admin
+      - echo "🚀 Project setup complete! Run 'task dev' to start development"
