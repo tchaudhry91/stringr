@@ -101,6 +101,7 @@ task backend:admin # Create admin user
 - User-scoped security rules and proper data relationships
 - Web testing available at http://localhost:8081
 - PocketBase admin at http://localhost:8090/_/ with schema import ready
+- Tennis strings scraper script with comprehensive database (200+ strings)
 
 **🔄 Current Phase (Phase 5):**
 - Authentication screens and user registration/login flow
@@ -161,3 +162,13 @@ task backend:admin # Create admin user
 - `api.strings.search()`, `api.strings.list()`
 - `api.stringJobs.getByRacquet()`, `api.stringJobs.create()`
 - `api.sessions.getByStringJob()`, `api.sessions.create()`
+
+## Scripts and Utilities
+
+**String Database Scraper (`scripts/scrape_strings.py`):**
+- Scrapes Tennis Warehouse comprehensive string database
+- Extracts brand, model, material, gauge, and performance characteristics
+- Generates timestamped JSON files for PocketBase import
+- Over 200 tennis strings with detailed specifications
+- Usage: `cd scripts && python3 scrape_strings.py`
+- Dependencies: `pip install -r requirements.txt`
