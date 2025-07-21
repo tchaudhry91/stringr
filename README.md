@@ -20,9 +20,13 @@ A comprehensive mobile app for tennis players and stringers to track racquets, s
 ## Quick Start
 
 ```bash
+# Install Task runner (if needed)
+# macOS: brew install go-task
+# Linux: sh -c "$(curl --location https://taskfile.dev/install.sh)" -- -d -b /usr/local/bin
+
 # Install dependencies
 cd stringr
-npm install
+task install
 
 # Start development servers
 task dev          # Both frontend and backend
@@ -41,11 +45,14 @@ task dev:backend  # Backend only (PocketBase)
 - PocketBase backend with production-ready database schema
 - TypeScript API client with full CRUD operations
 - Tennis strings scraper for comprehensive string database (200+ strings)
-- User authentication system and security rules
+- Complete authentication system with login/register screens
+- Protected routes and user session management
+- SharedStyles system for consistent UI patterns
+- Task-based development workflow
 
 **🔄 Next Steps:**
-- Authentication UI screens and user registration flow
 - Core CRUD functionality for racquets and string jobs
+- Data entry forms and list views for tennis collections
 - Photo support and advanced data visualization
 
 ## Database Collections
@@ -58,6 +65,32 @@ task dev:backend  # Backend only (PocketBase)
 ## Scripts
 
 - **String Database Scraper**: `scripts/scrape_strings.py` - Scrapes Tennis Warehouse database to populate string collection with performance data
+
+## Available Commands
+
+```bash
+# Development
+task dev          # Start both frontend and backend
+task dev:ui       # Start React Native web server
+task dev:backend  # Start PocketBase backend server
+
+# Setup
+task install      # Install all dependencies
+task setup        # Complete initial project setup
+
+# Building
+task build        # Build the application
+task build:ui     # Build React Native application
+
+# Maintenance
+task clean        # Clean all build artifacts
+task clean:ui     # Clean React Native artifacts
+task clean:backend # Clean PocketBase data (WARNING: deletes data)
+
+# Backend Management
+task backend:admin    # Create PocketBase admin user
+task backend:migrate  # Run PocketBase migrations
+```
 
 ## Development
 
