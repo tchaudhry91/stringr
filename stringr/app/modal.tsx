@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { Platform, StyleSheet, ScrollView, TextInput, TouchableOpacity, Alert } from 'react-native';
-import { router, useLocalSearchParams } from 'expo-router';
+import { router, useLocalSearchParams, Stack } from 'expo-router';
 
 import { Text, View } from '@/components/Themed';
 import { SharedStyles } from '@/styles/SharedStyles';
@@ -102,7 +102,14 @@ export default function RacquetFormModal() {
   }
 
   return (
-    <ScrollView style={SharedStyles.formContainer}>
+    <>
+      <Stack.Screen 
+        options={{ 
+          title: '',
+          headerShown: true,
+        }} 
+      />
+      <ScrollView style={SharedStyles.formContainer}>
       <View style={SharedStyles.formHeader}>
         <Text style={SharedStyles.formTitle}>
           {isEditing ? 'Edit Racquet' : 'Add New Racquet'}
@@ -194,6 +201,7 @@ export default function RacquetFormModal() {
 
       <StatusBar style={Platform.OS === 'ios' ? 'light' : 'auto'} />
     </ScrollView>
+    </>
   );
 }
 

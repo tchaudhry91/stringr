@@ -139,58 +139,91 @@ export const SharedStyles = StyleSheet.create({
 
   listItem: {
     padding: 16,
-    marginVertical: 4,
-    marginHorizontal: 8,
-    backgroundColor: '#f8f8f8',
-    borderRadius: 8,
+    marginVertical: 6,
+    marginHorizontal: 12,
+    borderRadius: 12,
     borderWidth: 1,
-    borderColor: '#ddd',
+    // Theme colors will be handled by the Themed View component
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.1,
+    shadowRadius: 3,
+    elevation: 3,
   },
 
   listItemHeader: {
+    marginBottom: 8,
+  },
+
+  listItemTitleRow: {
+    marginBottom: 6,
+  },
+
+  listItemButtonRow: {
     flexDirection: 'row',
-    justifyContent: 'space-between',
+    justifyContent: 'space-around',
     alignItems: 'center',
-    marginBottom: 4,
+    marginTop: 12,
+    paddingTop: 8,
+    borderTopWidth: 1,
+    borderTopColor: 'rgba(0, 0, 0, 0.1)',
   },
 
   listItemTitle: {
     fontSize: 18,
-    fontWeight: 'bold',
+    fontWeight: '700',
     flex: 1,
+    lineHeight: 24,
+    // Text color will be handled by the Themed Text component
   },
 
   listItemSubtitle: {
     fontSize: 14,
-    color: '#666',
-    marginBottom: 2,
+    marginBottom: 4,
+    lineHeight: 20,
+    opacity: 0.8,
   },
 
   listItemDetails: {
     fontSize: 14,
-    color: '#666',
-    marginBottom: 2,
+    marginBottom: 3,
+    lineHeight: 20,
+    opacity: 0.7,
   },
 
   listItemNotes: {
-    fontSize: 12,
-    color: '#888',
-    marginTop: 4,
+    fontSize: 13,
+    marginTop: 6,
     fontStyle: 'italic',
+    lineHeight: 18,
+    opacity: 0.6,
   },
 
-  // Buttons in list items
-  deleteButton: {
+  // Text buttons in list items
+  textButton: {
     paddingHorizontal: 12,
     paddingVertical: 6,
-    backgroundColor: '#ff4444',
-    borderRadius: 4,
+  },
+
+  editButtonText: {
+    color: '#007AFF',
+    fontSize: 14,
+    fontWeight: '500',
   },
 
   deleteButtonText: {
-    color: 'white',
-    fontSize: 12,
-    fontWeight: 'bold',
+    color: '#ff4444',
+    fontSize: 14,
+    fontWeight: '500',
+  },
+
+  stringButtonText: {
+    color: '#34C759',
+    fontSize: 14,
+    fontWeight: '500',
   },
 
   // Empty states

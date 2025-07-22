@@ -32,7 +32,7 @@ tasks:
     desc: Start PocketBase backend server in development mode
     dir: "{{.BACKEND_DIR}}"
     cmds:
-      - ./pocketbase serve --dev --dir {{.POCKETBASE_DIR}}
+      - ./pocketbase serve --dev --dir {{.POCKETBASE_DIR}} --http 0.0.0.0:8090
 
   backend:start:
     desc: Start PocketBase backend server

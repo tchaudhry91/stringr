@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { StyleSheet, FlatList, TextInput, RefreshControl } from 'react-native';
+import { StyleSheet, FlatList, TextInput, RefreshControl, View as RNView } from 'react-native';
 
 import { Text, View } from '@/components/Themed';
 import { SharedStyles } from '@/styles/SharedStyles';
@@ -51,28 +51,32 @@ export default function StringsScreen() {
   };
 
   const renderString = ({ item }: { item: String }) => (
-    <View style={SharedStyles.listItem}>
-      <Text style={SharedStyles.listItemTitle}>
-        {[item.brand, item.model].filter(Boolean).join(' ') || 'Unknown String'}
-      </Text>
-      
-      {item.material && (
-        <Text style={SharedStyles.listItemDetails}>
-          Material: {item.material}
-        </Text>
-      )}
-      
-      {item.gauge && (
-        <Text style={SharedStyles.listItemDetails}>
-          Gauge: {item.gauge}
-        </Text>
-      )}
-      
-      {item.color && (
-        <Text style={SharedStyles.listItemDetails}>
-          Color: {item.color}
-        </Text>
-      )}
+    <View style={SharedStyles.listItem} lightColor="#fff" darkColor="#2c2c2e">
+      <RNView style={styles.cardContent}>
+        <RNView style={SharedStyles.listItemTitleRow}>
+          <Text style={SharedStyles.listItemTitle}>
+            {[item.brand, item.model].filter(Boolean).join(' ') || 'Unknown String'}
+          </Text>
+        </RNView>
+        
+        {item.material && (
+          <Text style={SharedStyles.listItemDetails}>
+            Material: {item.material}
+          </Text>
+        )}
+        
+        {item.gauge && (
+          <Text style={SharedStyles.listItemDetails}>
+            Gauge: {item.gauge}
+          </Text>
+        )}
+        
+        {item.color && (
+          <Text style={SharedStyles.listItemDetails}>
+            Color: {item.color}
+          </Text>
+        )}
+      </RNView>
     </View>
   );
 
@@ -142,5 +146,8 @@ const styles = StyleSheet.create({
     color: '#666',
     textAlign: 'center',
     marginBottom: 8,
+  },
+  cardContent: {
+    flex: 1,
   },
 });

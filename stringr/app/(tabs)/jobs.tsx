@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { StyleSheet, FlatList, TouchableOpacity, Alert, RefreshControl } from 'react-native';
+import { StyleSheet, FlatList, TouchableOpacity, Alert, RefreshControl, View as RNView, Text as RNText } from 'react-native';
 import { router, useFocusEffect } from 'expo-router';
 
 import { Text, View } from '@/components/Themed';
@@ -76,42 +76,53 @@ export default function StringJobsScreen() {
   };
 
   const renderStringJob = ({ item }: { item: StringJobWithRelations }) => (
-    <TouchableOpacity
-      style={SharedStyles.listItem}
-      onPress={() => Alert.alert('Coming Soon', 'String job editing will be available in a future update')}
-    >
-      <View style={SharedStyles.listItemHeader}>
-        <Text style={SharedStyles.listItemTitle}>
-          {item.expand?.racquet?.name || 'Unknown Racquet'}
-        </Text>
-        <TouchableOpacity
-          style={SharedStyles.deleteButton}
-          onPress={() => handleDeleteStringJob(item)}
-        >
-          <Text style={SharedStyles.deleteButtonText}>Delete</Text>
-        </TouchableOpacity>
-      </View>
-      
-      <Text style={SharedStyles.listItemDetails}>
-        Tension: {formatTension(item.tension_lbs_main, item.tension_lbs_cross)}
-      </Text>
-      
-      {item.expand?.main_string && (
+    <View style={SharedStyles.listItem} lightColor="#fff" darkColor="#2c2c2e">
+      <RNView style={styles.cardContent}>
+        <RNView style={SharedStyles.listItemHeader}>
+          <RNView style={SharedStyles.listItemTitleRow}>
+            <Text style={SharedStyles.listItemTitle}>
+              {item.expand?.racquet?.name || 'Unknown Racquet'}
+            </Text>
+          </RNView>
+        </RNView>
+        
         <Text style={SharedStyles.listItemDetails}>
-          Main: {[item.expand.main_string.brand, item.expand.main_string.model].filter(Boolean).join(' ')}
+          Tension: {formatTension(item.tension_lbs_main, item.tension_lbs_cross)}
         </Text>
-      )}
-      
-      {item.expand?.cross_string && (
-        <Text style={SharedStyles.listItemDetails}>
-          Cross: {[item.expand.cross_string.brand, item.expand.cross_string.model].filter(Boolean).join(' ')}
+        
+        {item.expand?.main_string && (
+          <Text style={SharedStyles.listItemDetails}>
+            Main: {[item.expand.main_string.brand, item.expand.main_string.model].filter(Boolean).join(' ')}
+          </Text>
+        )}
+        
+        {item.expand?.cross_string && (
+          <Text style={SharedStyles.listItemDetails}>
+            Cross: {[item.expand.cross_string.brand, item.expand.cross_string.model].filter(Boolean).join(' ')}
+          </Text>
+        )}
+        
+        <Text style={SharedStyles.listItemNotes}>
+          Strung on {new Date(item.created).toLocaleDateString()}
         </Text>
-      )}
-      
-      <Text style={SharedStyles.listItemNotes}>
-        {new Date(item.created).toLocaleDateString()}
-      </Text>
-    </TouchableOpacity>
+
+        <RNView style={SharedStyles.listItemButtonRow}>
+          <TouchableOpacity
+            style={SharedStyles.textButton}
+            onPress={() => Alert.alert('Coming Soon', 'String job editing will be available in a future update')}
+          >
+            <Text style={SharedStyles.editButtonText}>Edit</Text>
+          </TouchableOpacity>
+          
+          <TouchableOpacity
+            style={SharedStyles.textButton}
+            onPress={() => handleDeleteStringJob(item)}
+          >
+            <Text style={SharedStyles.deleteButtonText}>Delete</Text>
+          </TouchableOpacity>
+        </RNView>
+      </RNView>
+    </View>
   );
 
   if (loading) {
@@ -149,5 +160,8 @@ export default function StringJobsScreen() {
   );
 }
 
-// All styles now use SharedStyles - no local styles needed
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  cardContent: {
+    flex: 1,
+  },
+});
