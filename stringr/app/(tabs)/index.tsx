@@ -144,14 +144,14 @@ export default function RacquetsScreen() {
           
           <TouchableOpacity
             style={SharedStyles.textButton}
-            onPress={() => {/* No action for now */}}
+            onPress={() => router.push(`/string-job-modal?racquetId=${item.id}`)}
           >
             <Text style={SharedStyles.stringButtonText}>String</Text>
           </TouchableOpacity>
           
           <TouchableOpacity
             style={SharedStyles.textButton}
-            onPress={() => {/* No action for now */}}
+            onPress={() => router.push(`/session-modal?racquetId=${item.id}`)}
           >
             <Text style={SharedStyles.playButtonText}>Play</Text>
           </TouchableOpacity>
