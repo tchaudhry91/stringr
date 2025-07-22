@@ -113,6 +113,19 @@ export default function StringPickerModal() {
             onChangeText={setSearchQuery}
             autoCapitalize="none"
           />
+          <TouchableOpacity
+            style={styles.addButton}
+            onPress={() => {
+              const params = new URLSearchParams({
+                returnTo: 'string-job',
+                fieldType: fieldType || 'main',
+                racquetId: onSelect || '',
+              });
+              router.push(`/add-string-modal?${params.toString()}`);
+            }}
+          >
+            <Text style={styles.addButtonText}>+ Add New String</Text>
+          </TouchableOpacity>
         </View>
 
         <FlatList
@@ -143,6 +156,21 @@ const styles = StyleSheet.create({
     paddingHorizontal: 12,
     fontSize: 16,
     backgroundColor: '#fff',
+    marginBottom: 12,
+  },
+  
+  addButton: {
+    backgroundColor: '#34C759',
+    paddingVertical: 12,
+    paddingHorizontal: 16,
+    borderRadius: 8,
+    alignItems: 'center',
+  },
+  
+  addButtonText: {
+    color: '#fff',
+    fontSize: 16,
+    fontWeight: '600',
   },
   
   list: {

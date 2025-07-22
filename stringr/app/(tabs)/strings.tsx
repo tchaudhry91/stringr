@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { StyleSheet, FlatList, TextInput, RefreshControl, View as RNView } from 'react-native';
+import { StyleSheet, FlatList, TextInput, RefreshControl, TouchableOpacity, View as RNView } from 'react-native';
+import { router, useFocusEffect } from 'expo-router';
 
 import { Text, View } from '@/components/Themed';
 import { SharedStyles } from '@/styles/SharedStyles';
@@ -28,6 +29,13 @@ export default function StringsScreen() {
   useEffect(() => {
     loadStrings();
   }, []);
+
+  // Reload data when tab comes into focus (e.g., after adding a new string)
+  useFocusEffect(
+    React.useCallback(() => {
+      loadStrings();
+    }, [])
+  );
 
   useEffect(() => {
     if (!searchQuery.trim()) {
@@ -101,6 +109,12 @@ export default function StringsScreen() {
           placeholder="Search strings by brand, model, material, gauge..."
           autoCapitalize="none"
         />
+        <TouchableOpacity
+          style={styles.addButton}
+          onPress={() => router.push('/add-string-modal')}
+        >
+          <Text style={styles.addButtonText}>+ Add New String</Text>
+        </TouchableOpacity>
       </View>
       
       {filteredStrings.length === 0 ? (
@@ -141,6 +155,22 @@ const styles = StyleSheet.create({
     paddingVertical: 8,
     width: '100%',
   },
+  
+  addButton: {
+    backgroundColor: '#34C759',
+    paddingVertical: 12,
+    paddingHorizontal: 16,
+    borderRadius: 8,
+    alignItems: 'center',
+    marginTop: 12,
+  },
+  
+  addButtonText: {
+    color: '#fff',
+    fontSize: 16,
+    fontWeight: '600',
+  },
+  
   resultCount: {
     fontSize: 14,
     color: '#666',
