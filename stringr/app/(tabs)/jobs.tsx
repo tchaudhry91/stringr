@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { StyleSheet, FlatList, TouchableOpacity, Alert, RefreshControl, View as RNView, Text as RNText } from 'react-native';
+import { StyleSheet, FlatList, TouchableOpacity, Alert, RefreshControl, View as RNView, Text as RNText, Platform } from 'react-native';
 import { router, useFocusEffect } from 'expo-router';
 
 import { Text, View } from '@/components/Themed';
@@ -42,28 +42,43 @@ export default function StringJobsScreen() {
     loadStringJobs();
   };
 
-  const handleDeleteStringJob = (stringJob: StringJobWithRelations) => {
+  const handleDeleteStringJob = async (stringJob: StringJobWithRelations) => {
     const racquetName = stringJob.expand?.racquet?.name || 'Unknown racquet';
-    Alert.alert(
-      'Delete String Job',
-      `Are you sure you want to delete the string job for "${racquetName}"?`,
-      [
-        { text: 'Cancel', style: 'cancel' },
-        {
-          text: 'Delete',
-          style: 'destructive',
-          onPress: async () => {
-            try {
-              await api.stringJobs.delete(stringJob.id);
-              loadStringJobs();
-            } catch (error) {
-              console.error('Failed to delete string job:', error);
-              Alert.alert('Error', 'Failed to delete string job');
-            }
+    
+    // Use browser confirm for web, Alert for mobile
+    let confirmed = false;
+    if (Platform.OS === 'web') {
+      confirmed = window.confirm(`Are you sure you want to delete the string job for "${racquetName}"?`);
+    } else {
+      // For mobile, use Alert (this should work fine)
+      Alert.alert(
+        'Delete String Job',
+        `Are you sure you want to delete the string job for "${racquetName}"?`,
+        [
+          { text: 'Cancel', style: 'cancel' },
+          {
+            text: 'Delete',
+            style: 'destructive',
+            onPress: () => { confirmed = true; },
           },
-        },
-      ]
-    );
+        ]
+      );
+    }
+    
+    if (confirmed) {
+      try {
+        await api.stringJobs.delete(stringJob.id);
+        loadStringJobs();
+      } catch (error) {
+        console.error('Failed to delete string job:', error);
+        const errorMessage = error instanceof Error ? error.message : 'Failed to delete string job';
+        if (Platform.OS === 'web') {
+          alert(`Delete Failed: ${errorMessage}`);
+        } else {
+          Alert.alert('Delete Failed', `Error: ${errorMessage}`);
+        }
+      }
+    }
   };
 
   const formatTension = (main?: number, cross?: number) => {

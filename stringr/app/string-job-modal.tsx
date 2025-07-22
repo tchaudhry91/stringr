@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { Platform, StyleSheet, ScrollView, TextInput, TouchableOpacity, Alert } from 'react-native';
+import { Platform, StyleSheet, ScrollView, TextInput, TouchableOpacity, Alert, FlatList } from 'react-native';
 import { router, useLocalSearchParams, Stack } from 'expo-router';
 
 import { Text, View } from '@/components/Themed';
@@ -8,16 +8,17 @@ import { SharedStyles } from '@/styles/SharedStyles';
 import { api, Racquet, String as TennisString, StringJob } from '@/lib/pocketbase';
 import { useAuth } from '@/contexts/AuthContext';
 
+type ViewMode = 'form' | 'selectMain' | 'selectCross';
+
 export default function StringJobFormModal() {
-  const { racquetId, selectedStringId, selectedStringField } = useLocalSearchParams<{ 
-    racquetId: string;
-    selectedStringId?: string;
-    selectedStringField?: 'main' | 'cross';
-  }>();
+  const { racquetId } = useLocalSearchParams<{ racquetId: string }>();
   const { user } = useAuth();
 
   const [racquet, setRacquet] = useState<Racquet | null>(null);
   const [strings, setStrings] = useState<TennisString[]>([]);
+  const [filteredStrings, setFilteredStrings] = useState<TennisString[]>([]);
+  const [searchQuery, setSearchQuery] = useState('');
+  const [currentView, setCurrentView] = useState<ViewMode>('form');
   const [form, setForm] = useState({
     mainStringId: '',
     crossStringId: '',
@@ -26,26 +27,25 @@ export default function StringJobFormModal() {
   });
   const [loading, setLoading] = useState(false);
   const [initialLoading, setInitialLoading] = useState(true);
-  
-  // Keep track of processed selections to avoid duplicate processing
-  const [processedSelection, setProcessedSelection] = useState<string>('');
 
   useEffect(() => {
     loadInitialData();
   }, [racquetId]);
 
-  // Handle string selection from picker
   useEffect(() => {
-    const selectionKey = `${selectedStringId}-${selectedStringField}`;
-    if (selectedStringId && selectedStringField && processedSelection !== selectionKey) {
-      if (selectedStringField === 'main') {
-        setForm(prev => ({ ...prev, mainStringId: selectedStringId }));
-      } else if (selectedStringField === 'cross') {
-        setForm(prev => ({ ...prev, crossStringId: selectedStringId }));
-      }
-      setProcessedSelection(selectionKey);
+    if (searchQuery.trim() === '') {
+      setFilteredStrings(strings);
+    } else {
+      const filtered = strings.filter(string => 
+        [string.brand, string.model, string.material, string.gauge]
+          .filter(Boolean)
+          .join(' ')
+          .toLowerCase()
+          .includes(searchQuery.toLowerCase())
+      );
+      setFilteredStrings(filtered);
     }
-  }, [selectedStringId, selectedStringField, processedSelection]);
+  }, [searchQuery, strings]);
 
   const loadInitialData = async () => {
     try {
@@ -56,6 +56,7 @@ export default function StringJobFormModal() {
       // Load strings for selection
       const stringsData = await api.strings.list();
       setStrings(stringsData.items);
+      setFilteredStrings(stringsData.items);
     } catch (error) {
       console.error('Failed to load data:', error);
       Alert.alert('Error', 'Failed to load racquet and strings');
@@ -89,7 +90,7 @@ export default function StringJobFormModal() {
 
       await api.stringJobs.create(data);
       Alert.alert('Success', 'String job created successfully');
-      router.back();
+      router.navigate('/(tabs)');
     } catch (error) {
       console.error('Failed to create string job:', error);
       Alert.alert('Error', 'Failed to create string job');
@@ -99,7 +100,22 @@ export default function StringJobFormModal() {
   };
 
   const handleCancel = () => {
-    router.back();
+    if (currentView !== 'form') {
+      setCurrentView('form');
+      setSearchQuery('');
+    } else {
+      router.back();
+    }
+  };
+
+  const handleSelectString = (string: TennisString, field: 'main' | 'cross') => {
+    if (field === 'main') {
+      setForm(prev => ({ ...prev, mainStringId: string.id }));
+    } else {
+      setForm(prev => ({ ...prev, crossStringId: string.id }));
+    }
+    setCurrentView('form');
+    setSearchQuery('');
   };
 
   const findStringById = (id: string) => {
@@ -108,6 +124,67 @@ export default function StringJobFormModal() {
 
   const formatStringName = (string: TennisString) => {
     return [string.brand, string.model, string.gauge].filter(Boolean).join(' ');
+  };
+
+  const renderStringPicker = () => {
+    const title = currentView === 'selectMain' ? 'Select Main String' : 'Select Cross String';
+    const fieldType = currentView === 'selectMain' ? 'main' : 'cross';
+    
+    return (
+      <View style={SharedStyles.container}>
+        <View style={styles.searchContainer}>
+          <TextInput
+            style={styles.searchInput}
+            placeholder="Search strings..."
+            value={searchQuery}
+            onChangeText={setSearchQuery}
+            autoCapitalize="none"
+          />
+          <TouchableOpacity
+            style={styles.addButton}
+            onPress={() => {
+              const params = new URLSearchParams({
+                returnTo: 'string-job',
+                fieldType: fieldType,
+                racquetId: racquetId,
+              });
+              router.push(`/add-string-modal?${params.toString()}`);
+            }}
+          >
+            <Text style={styles.addButtonText}>+ Add New String</Text>
+          </TouchableOpacity>
+        </View>
+
+        <FlatList
+          data={filteredStrings}
+          renderItem={({ item }) => (
+            <TouchableOpacity
+              style={styles.stringItem}
+              onPress={() => handleSelectString(item, fieldType)}
+            >
+              <View style={styles.stringContent}>
+                <Text style={styles.stringName}>
+                  {formatStringName(item)}
+                </Text>
+                {item.material && (
+                  <Text style={styles.stringDetails}>
+                    Material: {item.material}
+                  </Text>
+                )}
+                {item.color && (
+                  <Text style={styles.stringDetails}>
+                    Color: {item.color}
+                  </Text>
+                )}
+              </View>
+            </TouchableOpacity>
+          )}
+          keyExtractor={(item) => item.id}
+          style={styles.list}
+          showsVerticalScrollIndicator={false}
+        />
+      </View>
+    );
   };
 
   if (initialLoading) {
@@ -119,15 +196,24 @@ export default function StringJobFormModal() {
     );
   }
 
+  const getTitle = () => {
+    switch (currentView) {
+      case 'selectMain': return 'Select Main String';
+      case 'selectCross': return 'Select Cross String';
+      default: return '';
+    }
+  };
+
   return (
     <>
       <Stack.Screen 
         options={{ 
-          title: '',
+          title: getTitle(),
           headerShown: true,
         }} 
       />
-      <ScrollView style={SharedStyles.formContainer}>
+      {currentView === 'form' ? (
+        <ScrollView style={SharedStyles.formContainer}>
         <View style={SharedStyles.formHeader}>
           <Text style={SharedStyles.formTitle}>
             String {racquet?.name}
@@ -166,14 +252,7 @@ export default function StringJobFormModal() {
           <Text style={SharedStyles.formLabel}>Main String *</Text>
           <TouchableOpacity
             style={[SharedStyles.formInput, styles.picker]}
-            onPress={() => {
-              const params = new URLSearchParams({
-                title: 'Select Main String',
-                fieldType: 'main',
-                onSelect: racquetId,
-              });
-              router.push(`/string-picker-modal?${params.toString()}`);
-            }}
+            onPress={() => setCurrentView('selectMain')}
           >
             <Text style={styles.pickerText}>
               {form.mainStringId ? 
@@ -186,14 +265,7 @@ export default function StringJobFormModal() {
           <Text style={SharedStyles.formLabel}>Cross String</Text>
           <TouchableOpacity
             style={[SharedStyles.formInput, styles.picker]}
-            onPress={() => {
-              const params = new URLSearchParams({
-                title: 'Select Cross String',
-                fieldType: 'cross',
-                onSelect: racquetId,
-              });
-              router.push(`/string-picker-modal?${params.toString()}`);
-            }}
+            onPress={() => setCurrentView('selectCross')}
           >
             <Text style={styles.pickerText}>
               {form.crossStringId ? 
@@ -225,6 +297,9 @@ export default function StringJobFormModal() {
 
         <StatusBar style={Platform.OS === 'ios' ? 'light' : 'auto'} />
       </ScrollView>
+      ) : (
+        renderStringPicker()
+      )}
     </>
   );
 }
@@ -257,5 +332,68 @@ const styles = StyleSheet.create({
   pickerText: {
     fontSize: 16,
     color: '#333',
+  },
+
+  // String picker styles
+  searchContainer: {
+    padding: 16,
+    paddingBottom: 8,
+  },
+  
+  searchInput: {
+    height: 44,
+    borderWidth: 1,
+    borderColor: '#ddd',
+    borderRadius: 8,
+    paddingHorizontal: 12,
+    fontSize: 16,
+    backgroundColor: '#fff',
+    marginBottom: 12,
+  },
+  
+  addButton: {
+    backgroundColor: '#34C759',
+    paddingVertical: 12,
+    paddingHorizontal: 16,
+    borderRadius: 8,
+    alignItems: 'center',
+  },
+  
+  addButtonText: {
+    color: '#fff',
+    fontSize: 16,
+    fontWeight: '600',
+  },
+  
+  list: {
+    flex: 1,
+  },
+  
+  stringItem: {
+    marginHorizontal: 16,
+    marginVertical: 4,
+    borderRadius: 8,
+    overflow: 'hidden',
+  },
+  
+  stringContent: {
+    padding: 16,
+    backgroundColor: '#fff',
+    borderWidth: 1,
+    borderColor: '#eee',
+    borderRadius: 8,
+  },
+  
+  stringName: {
+    fontSize: 16,
+    fontWeight: '600',
+    color: '#333',
+    marginBottom: 4,
+  },
+  
+  stringDetails: {
+    fontSize: 14,
+    color: '#666',
+    marginTop: 2,
   },
 });
