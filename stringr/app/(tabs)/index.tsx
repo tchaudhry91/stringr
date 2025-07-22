@@ -151,6 +151,13 @@ export default function RacquetsScreen() {
           
           <TouchableOpacity
             style={SharedStyles.textButton}
+            onPress={() => {/* No action for now */}}
+          >
+            <Text style={SharedStyles.playButtonText}>Play</Text>
+          </TouchableOpacity>
+          
+          <TouchableOpacity
+            style={SharedStyles.textButton}
             onPress={() => handleDeleteRacquet(item)}
           >
             <Text style={SharedStyles.deleteButtonText}>Delete</Text>

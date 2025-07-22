@@ -226,6 +226,12 @@ export const SharedStyles = StyleSheet.create({
     fontWeight: '500',
   },
 
+  playButtonText: {
+    color: '#FF9500',
+    fontSize: 14,
+    fontWeight: '500',
+  },
+
   // Empty states
   emptyState: {
     flex: 1,
