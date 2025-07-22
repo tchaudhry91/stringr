@@ -102,69 +102,44 @@ export default function RacquetsScreen() {
   };
 
   const renderRacquet = ({ item }: { item: Racquet }) => (
-    <View style={SharedStyles.listItem} lightColor="#fff" darkColor="#2c2c2e">
-      <RNView style={styles.cardContent}>
-        <RNView style={SharedStyles.listItemHeader}>
-          <RNView style={SharedStyles.listItemTitleRow}>
-            <Text style={SharedStyles.listItemTitle}>{item.name}</Text>
+    <TouchableOpacity
+      style={SharedStyles.listItem}
+      onPress={() => router.push(`/racquet/${item.id}`)}
+    >
+      <View style={SharedStyles.listItem} lightColor="#fff" darkColor="#2c2c2e">
+        <RNView style={styles.cardContent}>
+          <RNView style={SharedStyles.listItemHeader}>
+            <RNView style={SharedStyles.listItemTitleRow}>
+              <Text style={SharedStyles.listItemTitle}>{item.name}</Text>
+            </RNView>
           </RNView>
+          
+          {[item.brand, item.model].filter(Boolean).length > 0 && (
+            <Text style={SharedStyles.listItemDetails}>
+              {[item.brand, item.model].filter(Boolean).join(' ')}
+            </Text>
+          )}
+          
+          {item.pattern && (
+            <Text style={SharedStyles.listItemDetails}>Pattern: {item.pattern}</Text>
+          )}
+          
+          {item.weight && (
+            <Text style={SharedStyles.listItemDetails}>Weight: {item.weight}</Text>
+          )}
+          
+          {item.year && (
+            <Text style={SharedStyles.listItemDetails}>Year: {item.year}</Text>
+          )}
+          
+          {item.notes && (
+            <Text style={SharedStyles.listItemNotes} numberOfLines={3}>
+              {item.notes}
+            </Text>
+          )}
         </RNView>
-        
-        {[item.brand, item.model].filter(Boolean).length > 0 && (
-          <Text style={SharedStyles.listItemDetails}>
-            {[item.brand, item.model].filter(Boolean).join(' ')}
-          </Text>
-        )}
-        
-        {item.pattern && (
-          <Text style={SharedStyles.listItemDetails}>Pattern: {item.pattern}</Text>
-        )}
-        
-        {item.weight && (
-          <Text style={SharedStyles.listItemDetails}>Weight: {item.weight}</Text>
-        )}
-        
-        {item.year && (
-          <Text style={SharedStyles.listItemDetails}>Year: {item.year}</Text>
-        )}
-        
-        {item.notes && (
-          <Text style={SharedStyles.listItemNotes} numberOfLines={3}>
-            {item.notes}
-          </Text>
-        )}
-
-        <RNView style={SharedStyles.listItemButtonRow}>
-          <TouchableOpacity
-            style={SharedStyles.textButton}
-            onPress={() => router.push(`/modal?racquetId=${item.id}`)}
-          >
-            <Text style={SharedStyles.editButtonText}>Edit</Text>
-          </TouchableOpacity>
-          
-          <TouchableOpacity
-            style={SharedStyles.textButton}
-            onPress={() => router.push(`/string-job-modal?racquetId=${item.id}`)}
-          >
-            <Text style={SharedStyles.stringButtonText}>String</Text>
-          </TouchableOpacity>
-          
-          <TouchableOpacity
-            style={SharedStyles.textButton}
-            onPress={() => router.push(`/session-modal?racquetId=${item.id}`)}
-          >
-            <Text style={SharedStyles.playButtonText}>Play</Text>
-          </TouchableOpacity>
-          
-          <TouchableOpacity
-            style={SharedStyles.textButton}
-            onPress={() => handleDeleteRacquet(item)}
-          >
-            <Text style={SharedStyles.deleteButtonText}>Delete</Text>
-          </TouchableOpacity>
-        </RNView>
-      </RNView>
-    </View>
+      </View>
+    </TouchableOpacity>
   );
 
   if (loading) {

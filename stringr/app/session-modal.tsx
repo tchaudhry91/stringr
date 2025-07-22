@@ -240,7 +240,7 @@ export default function SessionFormModal() {
             style={SharedStyles.formInput}
             value={form.durationHours}
             onChangeText={(text) => setForm({ ...form, durationHours: text })}
-            placeholder="1.5"
+            placeholder=""
             keyboardType="numeric"
           />
 
@@ -249,7 +249,7 @@ export default function SessionFormModal() {
             style={SharedStyles.formInput}
             value={form.rating}
             onChangeText={(text) => setForm({ ...form, rating: text })}
-            placeholder="8"
+            placeholder=""
             keyboardType="numeric"
           />
 

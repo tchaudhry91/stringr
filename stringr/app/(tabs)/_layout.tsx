@@ -70,13 +70,6 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="jobs"
-        options={{
-          title: 'String Jobs',
-          tabBarIcon: ({ color }) => <TabBarIcon name="list" color={color} />,
-        }}
-      />
-      <Tabs.Screen
         name="strings"
         options={{
           title: 'Strings',

@@ -135,7 +135,7 @@ export default function StringJobFormModal() {
         <View style={styles.searchContainer}>
           <TextInput
             style={styles.searchInput}
-            placeholder="Search strings..."
+            placeholder=""
             value={searchQuery}
             onChangeText={setSearchQuery}
             autoCapitalize="none"
@@ -280,7 +280,7 @@ export default function StringJobFormModal() {
             style={SharedStyles.formInput}
             value={form.tensionMainLbs}
             onChangeText={(text) => setForm({ ...form, tensionMainLbs: text })}
-            placeholder="55"
+            placeholder=""
             keyboardType="numeric"
           />
 
@@ -289,7 +289,7 @@ export default function StringJobFormModal() {
             style={SharedStyles.formInput}
             value={form.tensionCrossLbs}
             onChangeText={(text) => setForm({ ...form, tensionCrossLbs: text })}
-            placeholder="53 (optional)"
+            placeholder=""
             keyboardType="numeric"
           />
 

@@ -111,7 +111,7 @@ export default function AddStringModal() {
             style={SharedStyles.formInput}
             value={form.brand}
             onChangeText={(text) => setForm({ ...form, brand: text })}
-            placeholder="Wilson, Babolat, Head, etc."
+            placeholder=""
             autoCapitalize="words"
           />
 
@@ -120,7 +120,7 @@ export default function AddStringModal() {
             style={SharedStyles.formInput}
             value={form.model}
             onChangeText={(text) => setForm({ ...form, model: text })}
-            placeholder="Natural Gut, RPM Blast, etc."
+            placeholder=""
             autoCapitalize="words"
           />
 
@@ -129,7 +129,7 @@ export default function AddStringModal() {
             style={SharedStyles.formInput}
             value={form.material}
             onChangeText={(text) => setForm({ ...form, material: text })}
-            placeholder="Natural Gut, Polyester, Multifilament, etc."
+            placeholder=""
             autoCapitalize="words"
           />
 
@@ -138,7 +138,7 @@ export default function AddStringModal() {
             style={SharedStyles.formInput}
             value={form.gauge}
             onChangeText={(text) => setForm({ ...form, gauge: text })}
-            placeholder="16, 17, 1.25mm, etc."
+            placeholder=""
           />
 
           <Text style={SharedStyles.formLabel}>Color</Text>
@@ -146,7 +146,7 @@ export default function AddStringModal() {
             style={SharedStyles.formInput}
             value={form.color}
             onChangeText={(text) => setForm({ ...form, color: text })}
-            placeholder="Natural, Black, Blue, etc."
+            placeholder=""
             autoCapitalize="words"
           />
         </View>

@@ -140,7 +140,7 @@ export default function RacquetFormModal() {
           style={SharedStyles.formInput}
           value={form.name}
           onChangeText={(text) => setForm({ ...form, name: text })}
-          placeholder="My Pro Staff"
+          placeholder=""
           autoCapitalize="words"
         />
 
@@ -149,7 +149,7 @@ export default function RacquetFormModal() {
           style={SharedStyles.formInput}
           value={form.brand}
           onChangeText={(text) => setForm({ ...form, brand: text })}
-          placeholder="Wilson"
+          placeholder=""
           autoCapitalize="words"
         />
 
@@ -158,7 +158,7 @@ export default function RacquetFormModal() {
           style={SharedStyles.formInput}
           value={form.model}
           onChangeText={(text) => setForm({ ...form, model: text })}
-          placeholder="Pro Staff 97"
+          placeholder=""
           autoCapitalize="words"
         />
 
@@ -167,7 +167,7 @@ export default function RacquetFormModal() {
           style={SharedStyles.formInput}
           value={form.pattern}
           onChangeText={(text) => setForm({ ...form, pattern: text })}
-          placeholder="16x19"
+          placeholder=""
         />
 
         <Text style={SharedStyles.formLabel}>Weight</Text>
@@ -175,7 +175,7 @@ export default function RacquetFormModal() {
           style={SharedStyles.formInput}
           value={form.weight}
           onChangeText={(text) => setForm({ ...form, weight: text })}
-          placeholder="315g unstrung"
+          placeholder=""
         />
 
         <Text style={SharedStyles.formLabel}>Year</Text>
@@ -183,7 +183,7 @@ export default function RacquetFormModal() {
           style={SharedStyles.formInput}
           value={form.year}
           onChangeText={(text) => setForm({ ...form, year: text })}
-          placeholder="2023"
+          placeholder=""
           keyboardType="numeric"
         />
 
@@ -192,7 +192,7 @@ export default function RacquetFormModal() {
           style={[SharedStyles.formInput, SharedStyles.formTextArea]}
           value={form.notes}
           onChangeText={(text) => setForm({ ...form, notes: text })}
-          placeholder="Additional notes about this racquet..."
+          placeholder=""
           multiline
           numberOfLines={4}
           textAlignVertical="top"
