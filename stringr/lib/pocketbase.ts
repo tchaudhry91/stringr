@@ -1,7 +1,7 @@
 import PocketBase from 'pocketbase';
 
 // PocketBase client configuration
-const pb = new PocketBase('http://localhost:8090');
+const pb = new PocketBase('http://192.168.1.5:8090');
 
 // Enable auto cancellation for duplicated requests
 pb.autoCancellation(false);
