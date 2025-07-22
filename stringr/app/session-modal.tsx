@@ -107,9 +107,20 @@ export default function SessionFormModal() {
 
   const formatStringJobName = (job: StringJobWithRelations) => {
     const mainString = job.expand?.main_string;
-    const tension = job.tension_lbs_main ? `${job.tension_lbs_main}lbs` : '';
-    const stringName = mainString ? [mainString.brand, mainString.model].filter(Boolean).join(' ') : 'Unknown String';
-    return `${stringName} ${tension}`.trim();
+    const crossString = job.expand?.cross_string;
+    
+    const mainName = mainString ? [mainString.brand, mainString.model].filter(Boolean).join(' ') : 'Unknown String';
+    const crossName = crossString ? [crossString.brand, crossString.model].filter(Boolean).join(' ') : null;
+    
+    // Format string names
+    let stringDisplay = mainName;
+    if (crossName && crossName !== mainName) {
+      stringDisplay = `${mainName} / ${crossName}`;
+    } else if (crossName) {
+      stringDisplay = mainName; // Same string for both
+    }
+    
+    return stringDisplay;
   };
 
   const formatTension = (main?: number, cross?: number) => {
