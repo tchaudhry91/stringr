@@ -27,7 +27,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     setIsLoginLoading(true);
     try {
       const authData = await auth.login(email, password);
-      setUser(authData.record as User);
+      setUser(authData.record as unknown as User);
     } finally {
       setIsLoginLoading(false);
     }

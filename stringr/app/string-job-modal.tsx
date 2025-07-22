@@ -5,7 +5,7 @@ import { router, useLocalSearchParams, Stack } from 'expo-router';
 
 import { Text, View } from '@/components/Themed';
 import { SharedStyles } from '@/styles/SharedStyles';
-import { api, Racquet, TennisString, StringJob } from '@/lib/pocketbase';
+import { api, Racquet, String as TennisString, StringJob } from '@/lib/pocketbase';
 import { useAuth } from '@/contexts/AuthContext';
 
 export default function StringJobFormModal() {
@@ -23,7 +23,6 @@ export default function StringJobFormModal() {
     crossStringId: '',
     tensionMainLbs: '',
     tensionCrossLbs: '',
-    notes: '',
   });
   const [loading, setLoading] = useState(false);
   const [initialLoading, setInitialLoading] = useState(true);
@@ -80,7 +79,6 @@ export default function StringJobFormModal() {
         cross_string: form.crossStringId || undefined,
         tension_lbs_main: Number(form.tensionMainLbs),
         tension_lbs_cross: form.tensionCrossLbs ? Number(form.tensionCrossLbs) : undefined,
-        notes: form.notes.trim() || undefined,
         user: user?.id,
       };
 
@@ -218,16 +216,6 @@ export default function StringJobFormModal() {
             keyboardType="numeric"
           />
 
-          <Text style={SharedStyles.formLabel}>Notes</Text>
-          <TextInput
-            style={[SharedStyles.formInput, SharedStyles.formTextArea]}
-            value={form.notes}
-            onChangeText={(text) => setForm({ ...form, notes: text })}
-            placeholder="Stringing notes, date, stringer, etc..."
-            multiline
-            numberOfLines={4}
-            textAlignVertical="top"
-          />
         </View>
 
         <StatusBar style={Platform.OS === 'ios' ? 'light' : 'auto'} />

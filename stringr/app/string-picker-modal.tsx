@@ -5,7 +5,7 @@ import { router, useLocalSearchParams, Stack } from 'expo-router';
 
 import { Text, View } from '@/components/Themed';
 import { SharedStyles } from '@/styles/SharedStyles';
-import { api, TennisString } from '@/lib/pocketbase';
+import { api, String as TennisString } from '@/lib/pocketbase';
 
 export default function StringPickerModal() {
   const { onSelect, title, fieldType } = useLocalSearchParams<{ 

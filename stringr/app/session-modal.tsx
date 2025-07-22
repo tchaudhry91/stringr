@@ -22,7 +22,6 @@ export default function SessionFormModal() {
     stringJobId: stringJobId || '',
     durationHours: '',
     rating: '',
-    notes: '',
     stringBroken: false,
   });
   const [loading, setLoading] = useState(false);
@@ -87,7 +86,6 @@ export default function SessionFormModal() {
         string_job: form.stringJobId,
         duration_hours: Number(form.durationHours),
         rating: form.rating ? Number(form.rating) : undefined,
-        notes: form.notes.trim() || undefined,
         string_broken: form.stringBroken,
         user: user?.id,
       };
@@ -254,16 +252,6 @@ export default function SessionFormModal() {
             <Text style={styles.checkboxLabel}>String(s) broke during this session</Text>
           </View>
 
-          <Text style={SharedStyles.formLabel}>Notes</Text>
-          <TextInput
-            style={[SharedStyles.formInput, SharedStyles.formTextArea]}
-            value={form.notes}
-            onChangeText={(text) => setForm({ ...form, notes: text })}
-            placeholder="How did the strings perform? Any observations..."
-            multiline
-            numberOfLines={4}
-            textAlignVertical="top"
-          />
         </View>
 
         <StatusBar style={Platform.OS === 'ios' ? 'light' : 'auto'} />
