@@ -26,6 +26,9 @@ export default function StringJobFormModal() {
   });
   const [loading, setLoading] = useState(false);
   const [initialLoading, setInitialLoading] = useState(true);
+  
+  // Keep track of processed selections to avoid duplicate processing
+  const [processedSelection, setProcessedSelection] = useState<string>('');
 
   useEffect(() => {
     loadInitialData();
@@ -33,14 +36,16 @@ export default function StringJobFormModal() {
 
   // Handle string selection from picker
   useEffect(() => {
-    if (selectedStringId && selectedStringField) {
+    const selectionKey = `${selectedStringId}-${selectedStringField}`;
+    if (selectedStringId && selectedStringField && processedSelection !== selectionKey) {
       if (selectedStringField === 'main') {
         setForm(prev => ({ ...prev, mainStringId: selectedStringId }));
       } else if (selectedStringField === 'cross') {
         setForm(prev => ({ ...prev, crossStringId: selectedStringId }));
       }
+      setProcessedSelection(selectionKey);
     }
-  }, [selectedStringId, selectedStringField]);
+  }, [selectedStringId, selectedStringField, processedSelection]);
 
   const loadInitialData = async () => {
     try {

@@ -136,7 +136,14 @@ task backend:admin # Create admin user
 - **Cross-Platform**: Works seamlessly on web browsers and mobile devices via Expo Go
 - **Schema Compliance**: All forms match PocketBase backend exactly for guaranteed data integrity
 
+**🐛 Known Issues:**
+- **String Selection Bug**: When creating a string job, selecting the main string first and then the cross string causes the main string to be cleared from the form. This appears to be related to form state management during modal navigation between `string-job-modal.tsx` and `string-picker-modal.tsx`. The issue occurs because `router.replace()` creates a new component instance, resetting form state.
+  - **Files affected**: `app/string-job-modal.tsx`, `app/string-picker-modal.tsx`
+  - **Workaround**: Select cross string first, then main string, or complete the form in one session
+  - **Priority**: High - affects core string job creation workflow
+
 **📋 Next Features (Phase 8-9):**
+- Fix string selection form state management bug
 - String Job editing functionality with string/tension updates
 - Photo/image support for racquet documentation
 - Advanced data visualization and performance analytics

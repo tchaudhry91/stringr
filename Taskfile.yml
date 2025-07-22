@@ -4,6 +4,7 @@ vars:
   POCKETBASE_DIR: "~/.stringr"
   BACKEND_DIR: "./backend"
   UI_DIR: "./stringr"
+  BACKEND_URL: "http://localhost:8090"
 
 tasks:
   install:
@@ -25,6 +26,8 @@ tasks:
   dev:ui:
     desc: Start React Native web development server
     dir: "{{.UI_DIR}}"
+    env:
+      EXPO_PUBLIC_BACKEND_URL: "{{.BACKEND_URL}}"
     cmds:
       - npm run web
 
@@ -55,18 +58,24 @@ tasks:
   ui:web:
     desc: Start React Native web development server
     dir: "{{.UI_DIR}}"
+    env:
+      EXPO_PUBLIC_BACKEND_URL: "{{.BACKEND_URL}}"
     cmds:
       - npm run web
 
   ui:ios:
     desc: Start React Native iOS development
     dir: "{{.UI_DIR}}"
+    env:
+      EXPO_PUBLIC_BACKEND_URL: "{{.BACKEND_URL}}"
     cmds:
       - npm run ios
 
   ui:android:
     desc: Start React Native Android development
     dir: "{{.UI_DIR}}"
+    env:
+      EXPO_PUBLIC_BACKEND_URL: "{{.BACKEND_URL}}"
     cmds:
       - npm run android
 
@@ -84,6 +93,8 @@ tasks:
   build:ui:
     desc: Build React Native application
     dir: "{{.UI_DIR}}"
+    env:
+      EXPO_PUBLIC_BACKEND_URL: "{{.BACKEND_URL}}"
     cmds:
       - npm run build
 

@@ -1,7 +1,18 @@
 import PocketBase from 'pocketbase';
 
 // PocketBase client configuration
-const pb = new PocketBase('http://192.168.1.5:8090');
+const getBackendUrl = (): string => {
+  // Check for environment variable first
+  const envUrl = process.env.EXPO_PUBLIC_BACKEND_URL;
+  if (envUrl) {
+    return envUrl;
+  }
+
+  // Default to production URL for both web and mobile
+  return 'https://stringr.tux-sudo.com/';
+};
+
+const pb = new PocketBase(getBackendUrl());
 
 // Enable auto cancellation for duplicated requests
 pb.autoCancellation(false);
