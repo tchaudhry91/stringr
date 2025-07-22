@@ -103,7 +103,6 @@ export default function RacquetsScreen() {
 
   const renderRacquet = ({ item }: { item: Racquet }) => (
     <TouchableOpacity
-      style={SharedStyles.listItem}
       onPress={() => router.push(`/racquet/${item.id}`)}
     >
       <View style={SharedStyles.listItem} lightColor="#fff" darkColor="#2c2c2e">
