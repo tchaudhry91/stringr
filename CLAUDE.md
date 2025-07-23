@@ -159,6 +159,21 @@ task backend:admin # Create admin user
 - **✅ Session Display**: Enhanced session creation to show both main and cross strings when available
   - **Files improved**: `app/session-modal.tsx` with intelligent string display logic
 
+**🎨 UI/UX Improvements (Latest):**
+- **✅ Card Styling Overhaul**: Improved mobile experience with better borders and contrast
+  - **Thinner borders**: Reduced from 1px to 0.5px for cleaner appearance
+  - **Better contrast**: Increased text opacity (0.7→0.8, 0.6→0.7) for improved readability
+  - **Enhanced dark mode**: Better background colors (#1c1c1e) and theme-aware borders
+  - **Mobile optimization**: Larger margins, touch targets, and spacing for mobile devices
+  - **Files updated**: `styles/SharedStyles.ts`, all card-based screens
+- **✅ Dark Mode Fixes**: Fixed racquet details card display issues in Expo Go
+  - **Solution**: Added transparent backgrounds to inner View components for proper theme inheritance
+  - **Files fixed**: `app/racquet/[id].tsx` with proper theme-aware styling
+- **✅ Action Button Consistency**: Added missing buttons and standardized styling
+  - **Added**: Edit/Delete buttons to racquet listing cards (were missing functionality)
+  - **Fixed**: String jobs delete button styling to match other cards
+  - **Consistent**: All cards now use identical button row styling and theming
+
 **📋 Next Features (Phase 9-10):**
 - String Job editing functionality with string/tension updates
 - Photo/image support for racquet documentation
