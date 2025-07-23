@@ -137,7 +137,17 @@ export default function RacquetDetailScreen() {
       <Text style={SharedStyles.title}>{racquet.name}</Text>
       <View style={SharedStyles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
       
-      <View style={[SharedStyles.listItem, { marginBottom: 20 }]} lightColor="#fff" darkColor="#2c2c2e">
+      <View 
+        style={[
+          SharedStyles.listItem, 
+          { 
+            marginBottom: 20,
+            borderColor: 'rgba(128, 128, 128, 0.2)'
+          }
+        ]} 
+        lightColor="#fff" 
+        darkColor="#1c1c1e"
+      >
         
         <View style={styles.racquetDetails}>
           {racquet.brand && <Text style={SharedStyles.listItemDetails}>Brand: {racquet.brand}</Text>}
@@ -169,7 +179,13 @@ export default function RacquetDetailScreen() {
           </View>
         )}
 
-        <View style={[SharedStyles.listItemButtonRow, { marginTop: 16 }]}>
+        <View style={[
+          SharedStyles.listItemButtonRow, 
+          { 
+            marginTop: 16,
+            borderTopColor: 'rgba(128, 128, 128, 0.2)'
+          }
+        ]}>
           <TouchableOpacity
             style={SharedStyles.textButton}
             onPress={() => router.push(`/modal?racquetId=${racquet.id}`)}
@@ -203,7 +219,15 @@ export default function RacquetDetailScreen() {
         </View>
       ) : (
         stringJobs.map((job, index) => (
-          <View key={job.id} style={SharedStyles.listItem} lightColor="#fff" darkColor="#2c2c2e">
+          <View 
+            key={job.id} 
+            style={[
+              SharedStyles.listItem,
+              { borderColor: 'rgba(128, 128, 128, 0.2)' }
+            ]} 
+            lightColor="#fff" 
+            darkColor="#1c1c1e"
+          >
             <Text style={SharedStyles.listItemTitle}>
               String Job #{stringJobs.length - index}
             </Text>
@@ -219,7 +243,10 @@ export default function RacquetDetailScreen() {
               Date: {new Date(job.created).toLocaleDateString()}
             </Text>
             
-            <View style={SharedStyles.listItemButtonRow}>
+            <View style={[
+              SharedStyles.listItemButtonRow,
+              { borderTopColor: 'rgba(128, 128, 128, 0.2)' }
+            ]}>
               <TouchableOpacity
                 style={SharedStyles.textButton}
                 onPress={() => handleDeleteStringJob(job)}
@@ -241,7 +268,15 @@ export default function RacquetDetailScreen() {
         </View>
       ) : (
         sessions.map((session) => (
-          <View key={session.id} style={SharedStyles.listItem} lightColor="#fff" darkColor="#2c2c2e">
+          <View 
+            key={session.id} 
+            style={[
+              SharedStyles.listItem,
+              { borderColor: 'rgba(128, 128, 128, 0.2)' }
+            ]} 
+            lightColor="#fff" 
+            darkColor="#1c1c1e"
+          >
             <Text style={SharedStyles.listItemTitle}>
               Session - {new Date(session.created).toLocaleDateString()}
             </Text>
@@ -280,7 +315,7 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   currentStringsSection: {
-    borderTopWidth: 1,
+    borderTopWidth: 0.5,
     borderTopColor: 'rgba(128, 128, 128, 0.2)',
     paddingTop: 12,
   },

@@ -59,7 +59,14 @@ export default function StringsScreen() {
   };
 
   const renderString = ({ item }: { item: String }) => (
-    <View style={SharedStyles.listItem} lightColor="#fff" darkColor="#2c2c2e">
+    <View 
+      style={[
+        SharedStyles.listItem,
+        { borderColor: 'rgba(128, 128, 128, 0.2)' }
+      ]} 
+      lightColor="#fff" 
+      darkColor="#1c1c1e"
+    >
       <RNView style={styles.cardContent}>
         <RNView style={SharedStyles.listItemTitleRow}>
           <Text style={SharedStyles.listItemTitle}>

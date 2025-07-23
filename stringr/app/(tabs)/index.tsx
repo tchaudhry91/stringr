@@ -105,7 +105,14 @@ export default function RacquetsScreen() {
     <TouchableOpacity
       onPress={() => router.push(`/racquet/${item.id}`)}
     >
-      <View style={SharedStyles.listItem} lightColor="#fff" darkColor="#2c2c2e">
+      <View 
+        style={[
+          SharedStyles.listItem,
+          { borderColor: 'rgba(128, 128, 128, 0.2)' }
+        ]} 
+        lightColor="#fff" 
+        darkColor="#1c1c1e"
+      >
         <RNView style={styles.cardContent}>
           <RNView style={SharedStyles.listItemHeader}>
             <RNView style={SharedStyles.listItemTitleRow}>

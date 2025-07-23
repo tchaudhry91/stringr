@@ -27,6 +27,13 @@ export const SharedStyles = StyleSheet.create({
     fontWeight: 'bold',
   },
 
+  sectionTitle: {
+    fontSize: 18,
+    fontWeight: '600',
+    marginTop: 8,
+    marginBottom: 4,
+  },
+
   subtitle: {
     fontSize: 16,
     opacity: 0.7,
@@ -139,19 +146,19 @@ export const SharedStyles = StyleSheet.create({
 
   listItem: {
     padding: 16,
-    marginVertical: 6,
-    marginHorizontal: 12,
+    marginVertical: 8,
+    marginHorizontal: 16,
     borderRadius: 12,
-    borderWidth: 1,
-    // Theme colors will be handled by the Themed View component
+    borderWidth: 0.5,
+    // Theme colors and borders will be handled by the Themed View component
     shadowColor: '#000',
     shadowOffset: {
       width: 0,
-      height: 2,
+      height: 1,
     },
-    shadowOpacity: 0.1,
-    shadowRadius: 3,
-    elevation: 3,
+    shadowOpacity: 0.05,
+    shadowRadius: 2,
+    elevation: 2,
   },
 
   listItemHeader: {
@@ -166,10 +173,10 @@ export const SharedStyles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-around',
     alignItems: 'center',
-    marginTop: 12,
-    paddingTop: 8,
-    borderTopWidth: 1,
-    borderTopColor: 'rgba(0, 0, 0, 0.1)',
+    marginTop: 16,
+    paddingTop: 12,
+    borderTopWidth: 0.5,
+    // borderTopColor will be set dynamically in components
   },
 
   listItemTitle: {
@@ -189,23 +196,23 @@ export const SharedStyles = StyleSheet.create({
 
   listItemDetails: {
     fontSize: 14,
-    marginBottom: 3,
+    marginBottom: 4,
     lineHeight: 20,
-    opacity: 0.7,
+    opacity: 0.8,
   },
 
   listItemNotes: {
     fontSize: 13,
-    marginTop: 6,
+    marginTop: 8,
     fontStyle: 'italic',
     lineHeight: 18,
-    opacity: 0.6,
+    opacity: 0.7,
   },
 
   // Text buttons in list items
   textButton: {
-    paddingHorizontal: 12,
-    paddingVertical: 6,
+    paddingHorizontal: 16,
+    paddingVertical: 8,
   },
 
   editButtonText: {
