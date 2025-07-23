@@ -149,7 +149,7 @@ export default function RacquetDetailScreen() {
         darkColor="#1c1c1e"
       >
         
-        <View style={styles.racquetDetails}>
+        <View style={[styles.racquetDetails, { backgroundColor: 'transparent' }]}>
           {racquet.brand && <Text style={SharedStyles.listItemDetails}>Brand: {racquet.brand}</Text>}
           {racquet.model && <Text style={SharedStyles.listItemDetails}>Model: {racquet.model}</Text>}
           {racquet.pattern && <Text style={SharedStyles.listItemDetails}>Pattern: {racquet.pattern}</Text>}
@@ -163,7 +163,7 @@ export default function RacquetDetailScreen() {
         </View>
 
         {currentStringJob && (
-          <View style={styles.currentStringsSection}>
+          <View style={[styles.currentStringsSection, { backgroundColor: 'transparent' }]}>
             <Text style={[SharedStyles.sectionTitle, { marginTop: 16 }]}>Current Strings</Text>
             <Text style={SharedStyles.listItemDetails}>
               Main: {currentStringJob.expand?.main_string?.brand} {currentStringJob.expand?.main_string?.model} @ {currentStringJob.tension_lbs_main}lbs
@@ -183,7 +183,8 @@ export default function RacquetDetailScreen() {
           SharedStyles.listItemButtonRow, 
           { 
             marginTop: 16,
-            borderTopColor: 'rgba(128, 128, 128, 0.2)'
+            borderTopColor: 'rgba(128, 128, 128, 0.2)',
+            backgroundColor: 'transparent'
           }
         ]}>
           <TouchableOpacity
