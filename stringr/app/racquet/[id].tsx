@@ -246,7 +246,10 @@ export default function RacquetDetailScreen() {
             
             <View style={[
               SharedStyles.listItemButtonRow,
-              { borderTopColor: 'rgba(128, 128, 128, 0.2)' }
+              { 
+                borderTopColor: 'rgba(128, 128, 128, 0.2)',
+                backgroundColor: 'transparent'
+              }
             ]}>
               <TouchableOpacity
                 style={SharedStyles.textButton}
