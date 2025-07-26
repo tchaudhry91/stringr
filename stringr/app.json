@@ -21,6 +21,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
+      "package": "com.tuxsudo.stringr",
+      "versionCode": 1,
       "edgeToEdgeEnabled": true
     },
     "web": {
@@ -33,6 +35,12 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "175d980e-b7c4-4edc-92b1-69f2d8578ba4"
+      }
     }
   }
 }
