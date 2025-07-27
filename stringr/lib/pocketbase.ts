@@ -1,4 +1,5 @@
 import PocketBase from 'pocketbase';
+import { AsyncAuthStore } from './authStore';
 
 // PocketBase client configuration
 const getBackendUrl = (): string => {
@@ -12,7 +13,7 @@ const getBackendUrl = (): string => {
   return 'https://stringr.tux-sudo.com/';
 };
 
-const pb = new PocketBase(getBackendUrl());
+const pb = new PocketBase(getBackendUrl(), new AsyncAuthStore());
 
 // Enable auto cancellation for duplicated requests
 pb.autoCancellation(false);

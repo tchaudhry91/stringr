@@ -18,9 +18,14 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [isLoginLoading, setIsLoginLoading] = useState(false);
 
   useEffect(() => {
-    const currentUser = auth.getCurrentUser();
-    setUser(currentUser);
-    setIsLoading(false);
+    // Wait a bit for AsyncStorage to load
+    const timer = setTimeout(() => {
+      const currentUser = auth.getCurrentUser();
+      setUser(currentUser);
+      setIsLoading(false);
+    }, 100);
+
+    return () => clearTimeout(timer);
   }, []);
 
   const login = async (email: string, password: string) => {
