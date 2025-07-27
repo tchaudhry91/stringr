@@ -1,12 +1,16 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { BaseAuthStore } from 'pocketbase';
+import { Platform } from 'react-native';
 
 export class AsyncAuthStore extends BaseAuthStore {
   private storageKey = 'pb_auth';
 
   constructor() {
     super();
-    this.loadFromStorage();
+    // Only load from storage on client-side
+    if (Platform.OS !== 'web' || typeof window !== 'undefined') {
+      this.loadFromStorage();
+    }
   }
 
   async loadFromStorage() {
@@ -24,21 +28,25 @@ export class AsyncAuthStore extends BaseAuthStore {
   save(token: string, model?: any): void {
     super.save(token, model);
     
-    // Save to AsyncStorage
-    AsyncStorage.setItem(
-      this.storageKey,
-      JSON.stringify({ token, model })
-    ).catch((error) => {
-      console.error('Failed to save auth to storage:', error);
-    });
+    // Only save to AsyncStorage on client-side
+    if (Platform.OS !== 'web' || typeof window !== 'undefined') {
+      AsyncStorage.setItem(
+        this.storageKey,
+        JSON.stringify({ token, model })
+      ).catch((error) => {
+        console.error('Failed to save auth to storage:', error);
+      });
+    }
   }
 
   clear(): void {
     super.clear();
     
-    // Clear from AsyncStorage
-    AsyncStorage.removeItem(this.storageKey).catch((error) => {
-      console.error('Failed to clear auth from storage:', error);
-    });
+    // Only clear from AsyncStorage on client-side
+    if (Platform.OS !== 'web' || typeof window !== 'undefined') {
+      AsyncStorage.removeItem(this.storageKey).catch((error) => {
+        console.error('Failed to clear auth from storage:', error);
+      });
+    }
   }
 }
